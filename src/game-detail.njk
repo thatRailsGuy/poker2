@@ -15,7 +15,7 @@ permalink: /games/{{ game.id }}/
   <div class="card-body">
     <h5 class="card-title">Description</h5>
     <div class="card-text">
-      {{ game.description | markdown | safe }}
+      {{ game.description | markdown(games) | safe }}
     </div>
   </div>
 </div>

@@ -9,10 +9,66 @@ module.exports = function(eleventyConfig) {
     linkify: true
   }).use(markdownItAttrs);
 
-  // Custom filter for rendering markdown
-  eleventyConfig.addFilter('markdown', (content) => {
+  // Custom filter for rendering markdown with game links and card images
+  eleventyConfig.addFilter('markdown', (content, games) => {
     if (!content) return '';
-    return markdownLibrary.render(content);
+
+    // Replace [game:Game Name] with links to game pages
+    let processed = content.replace(/\[game:([^\]]+)\]/g, (match, gameName) => {
+      // Find the game by name
+      const game = games?.find(g => g.name === gameName);
+      if (game) {
+        return `[${gameName}](/games/${game.id}/)`;
+      }
+      return gameName; // Fallback to just the name if game not found
+    });
+
+    // Replace [card:rank of suit] with card images
+    processed = processed.replace(/\[card:([^\]]+)\]/g, (match, cardName) => {
+      // Parse card name (e.g., "ace of clubs", "2 of diamonds")
+      const parts = cardName.toLowerCase().trim().match(/^(.+?)\s+of\s+(.+)$/);
+      if (parts) {
+        const rank = parts[1];
+        const suit = parts[2];
+
+        // Map rank names to card codes
+        const rankMap = {
+          'ace': 'A', 'a': 'A',
+          '2': '2', 'two': '2',
+          '3': '3', 'three': '3',
+          '4': '4', 'four': '4',
+          '5': '5', 'five': '5',
+          '6': '6', 'six': '6',
+          '7': '7', 'seven': '7',
+          '8': '8', 'eight': '8',
+          '9': '9', 'nine': '9',
+          '10': '0', 'ten': '0',
+          'jack': 'J', 'j': 'J',
+          'queen': 'Q', 'q': 'Q',
+          'king': 'K', 'k': 'K'
+        };
+
+        // Map suit names to suit codes
+        const suitMap = {
+          'spades': 'S', 'spade': 'S',
+          'hearts': 'H', 'heart': 'H',
+          'diamonds': 'D', 'diamond': 'D',
+          'clubs': 'C', 'club': 'C'
+        };
+
+        const rankCode = rankMap[rank];
+        const suitCode = suitMap[suit];
+
+        if (rankCode && suitCode) {
+          // Use deckofcardsapi.com for card images
+          const cardCode = `${rankCode}${suitCode}`;
+          return `<img src="https://deckofcardsapi.com/static/img/${cardCode}.png" alt="${cardName}" class="card-img">`;
+        }
+      }
+      return cardName; // Fallback to text if parsing fails
+    });
+
+    return markdownLibrary.render(processed);
   });
 
   // Custom filter for clickable tags
