@@ -1,0 +1,1062 @@
+[
+  {
+    "id": 12,
+    "name": "2-7 Single Draw",
+    "description": "1. Each player is dealt five cards\r\n2. Round of betting\r\n3. May exchange up to 3 cards\r\n4. Round of betting\r\n\r\nWinner is player with lowest hand. Unlike lowball, aces are high, and straights and flushes count as high.",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T10:09:06.466Z",
+    "updated_at": "2013-09-02T10:09:06.466Z"
+  },
+  {
+    "id": 13,
+    "name": "2-7 Triple Draw",
+    "description": "1. Each player is dealt five cards\r\n2. Round of betting\r\n3. May exchange up to 3 cards\r\n4. Round of betting\r\n5. May exchange up to 3 cards\r\n6. Round of betting\r\n7. May exchange up to 3 cards\r\n8. Round of betting\r\n\r\nWinner is player with lowest hand. Unlike lowball, aces are high, and straights and flushes count as high.",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T10:10:10.121Z",
+    "updated_at": "2013-09-02T10:10:10.121Z"
+  },
+  {
+    "id": 62,
+    "name": "357",
+    "description": "A hand consists of the following:\r\n\r\n* Ante, deal 3 down to each player\r\n* Threes are wild\r\n* Players go around the table declaring in or out\r\n* If two players are in, they exchange cards without exposing to other players. The loser must pay the winner the amount in the pot.\r\n* If a player declares in after more than one other person, that player may choose which player to play against. They may then choose to play against any of the other players that are in.\r\n* If a player declares in, and nobody after him calls in, the players who passed before him get a last chance to declare in (only one person may go in against him)\r\n* If nobody calls an in player, that person gains a leg.\r\n* Ante again, each player **keeps their three cards** and is dealt two more. \r\n* Threes are no longer wild, fives are now wild.\r\n* Players once again go around the table declaring in or out\r\n* Ante again, each player **keeps their five cards** and is dealt two more. \r\n* Fives are no longer wild, sevens are now wild.\r\n* Players once again go around the table declaring in or out\r\n\r\nA player doesn't have to be in one round to be in the next. \r\nPlay continues as above until a player gets a second leg. That player collects the pot.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      "pot-matching",
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T06:14:20.630Z",
+    "updated_at": "2013-09-03T07:01:30.816Z"
+  },
+  {
+    "id": 70,
+    "name": "44",
+    "description": "* Deal each player four down cards, deal four community cards (down)\r\n* Round of betting\r\n* Reveal one community card at a time, with a round of betting after each\r\n* Cards matching between hand and community are wild\r\n* Winner is best five card hand",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 12,
+    "num_cards": 4,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T07:58:26.755Z",
+    "updated_at": "2013-09-03T07:58:26.755Z"
+  },
+  {
+    "id": 71,
+    "name": "6.5-21",
+    "description": "Counting Game\r\n\r\n* Deal one down to start, then all up with round of betting after each player gets one\r\n* Aces are worth 1 or 11\r\n* Face cards are worth 0.5\r\n* Continue until nobody takes a card\r\n* Final round of betting\r\n\r\nPot is split between:\r\n1. Closest to 21 without going over\r\n2. Closest to 6.5 (lower beats higher)\r\n   For example: 6 beats a 7\r\n\r\n",
+    "style_id": 5,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 1,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T08:01:11.353Z",
+    "updated_at": "2013-09-03T08:01:11.353Z"
+  },
+  {
+    "id": 56,
+    "name": "7-27",
+    "description": "* Blackjack counting rules\r\n* Deal one card initially, bet\r\n* Pot is split between closest to 7 and closest to 27 without going over\r\n* Allowed to take one card at a time, followed by round of betting\r\n* One final round of betting when nobody takes a card",
+    "style_id": 5,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 2,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:55:00.667Z",
+    "updated_at": "2013-09-03T05:55:00.667Z"
+  },
+  {
+    "id": 63,
+    "name": "Acey Deucey",
+    "description": "* Deal two cards face up.\r\n* Player must wager odds that next card is between those two.\r\n* If next card is between the two, take that amount from the pot\r\n* If the next card is outside of the two, pay that amount into the pot\r\n* If the next card is one of those two, player must double the pot\r\n* If the two dealt cards are the same or one apart, that player is skipped.\r\n* Play continues until one player wins the pot. Cards are dealt without shuffling until the deck is depleted.\r\n* If an ace is the first card, player must call low or high before the next card is dealt. \r\n* If an ace is the second card, it is treated as high\r\n\r\nOption: Players may only wager half the pot for the first round",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 2,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T07:19:58.529Z",
+    "updated_at": "2013-09-03T07:19:58.529Z"
+  },
+  {
+    "id": 18,
+    "name": "Al's Game",
+    "description": "1. Each player is dealt a down card. \r\n2. Each player may choose to receive a card faceup, or reveal their down card and receive a card facedown.\r\n3. A round of betting is initiated by the player with the best poker hand showing.\r\n4. Repeat steps 2-3 until each player has one down card and four up cards.\r\n5. Showdown\r\n\r\nThe hole card is wild. ",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-02T22:52:31.069Z",
+    "updated_at": "2013-09-02T22:52:31.069Z"
+  },
+  {
+    "id": 55,
+    "name": "Anaconda",
+    "description": "1. Deal each player 7 cards\r\n2. Bet\r\n3. Pass three cards left\r\n4. Bet\r\n5. Pass two cards left\r\n6. Bet\r\n7. Pass one card left\r\n8. Bet\r\n9. Each player discards two cards (face down)\r\n10. Roll one card at a time, with a round of betting after each\r\n\r\nPot is split between high and low hands",
+    "style_id": 4,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      "dickish",
+      "hi-lo",
+      ""
+    ],
+    "created_at": "2013-09-03T05:36:56.140Z",
+    "updated_at": "2013-09-03T05:37:12.368Z"
+  },
+  {
+    "id": 14,
+    "name": "Badugi",
+    "description": "1. Players are dealt 4 cards\r\n2. Round of betting\r\n3. May exchange up to 4 cards (3 times, each followed by betting round)\r\n\r\n\r\nBadugi hands are ranked as follows:\r\n4 card hand > 3 card hand > 2 card hand > 1 card hand\r\nIf two cards share either a suit or a rank, one is not counted as part of a hand. \r\n\r\nLowest hand wins. \r\n\r\nBest possible hand (all four suits, ace, 2, 3, 4): [card:ace of clubs][card:2 of diamonds][card:3 of hearts][card:4 of spades]",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 4,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T10:14:52.433Z",
+    "updated_at": "2013-09-02T10:14:52.433Z"
+  },
+  {
+    "id": 40,
+    "name": "Baseball",
+    "description": "[game:Seven Card Stud]\r\n* Threes and Nines are wild\r\n* Players dealt a four get the option to buy an extra card\r\n* Option - Down fours don't get an extra card",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 6,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T04:06:57.439Z",
+    "updated_at": "2013-09-03T04:06:57.439Z"
+  },
+  {
+    "id": 21,
+    "name": "Best Flush",
+    "description": "[game:Five Card Stud]\r\n\r\nWinner is player with best flush. \r\nRankings are as follows:\r\n1. Straight flush\r\n2. Five card flush\r\n3. Four card flush\r\n4. Three card flush\r\n5. Two card flush",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T23:34:49.352Z",
+    "updated_at": "2013-09-02T23:34:49.352Z"
+  },
+  {
+    "id": 65,
+    "name": "Bid Poker",
+    "description": "* Set minimum bid price\r\n* Deal 5 cards to each player\r\n* Deal 5 cards face down to the center\r\n* Reveal a card\r\n* Player to dealers left must bid at least the minimum\r\n* Bid goes around the table, with either a higher bid or pass\r\n* Players who pass may not bid again\r\n* Player who bids while everyone passes gets card for that price\r\n* Next card is exposed and next player starts bid\r\n* Declare High/Low for showdown",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      "dickish",
+      "hi-lo",
+      ""
+    ],
+    "created_at": "2013-09-03T07:39:34.372Z",
+    "updated_at": "2013-09-03T07:39:34.372Z"
+  },
+  {
+    "id": 59,
+    "name": "Blood and Guts",
+    "description": "Like [game:Guts], only players are dealt one card face up. \r\n\r\nPlayer with highest up card has to be in.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 3,
+    "tags": [
+      "pot-matching",
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T06:00:59.666Z",
+    "updated_at": "2013-09-03T06:00:59.666Z"
+  },
+  {
+    "id": 48,
+    "name": "Cinncinnati",
+    "description": "1. Five cards down to each player, five cards down to community.\r\n2. Round of betting\r\n3. Reveal on card at a time followed by a round of betting, until all cards are revealed\r\n\r\nBest five card hand wins using all ten cards",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:11:59.580Z",
+    "updated_at": "2013-09-03T05:11:59.580Z"
+  },
+  {
+    "id": 69,
+    "name": "Clint's Game",
+    "description": "Same as [game:Trees], but pot is split between high hand and best badugi hand",
+    "style_id": 4,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T07:56:21.269Z",
+    "updated_at": "2013-09-03T07:56:21.269Z"
+  },
+  {
+    "id": 42,
+    "name": "Cow Pies",
+    "description": "[game:Seven Card Stud]\r\n\r\nThe pot is split between best 5 card hand and best 2 card hand (not the same cards in each)",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T04:40:18.373Z",
+    "updated_at": "2013-09-03T04:40:18.373Z"
+  },
+  {
+    "id": 46,
+    "name": "Criss-Cross",
+    "description": "1. Five cards are dealt down to each player. Five cards are dealt face down in a cross in the center.\r\n2. Round of betting\r\n3. One card is revealed, followed by a round of betting, until all cards are revealed (center is last to be revealed)\r\n\r\nOptions:\r\n* Match and the cards are wild\r\n* Center card is wild\r\n\r\nWinner is best hand between hole cards and 3 linear community cards (horizontal or vertical)",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:09:09.446Z",
+    "updated_at": "2013-09-03T05:09:09.446Z"
+  },
+  {
+    "id": 67,
+    "name": "Double Lowball",
+    "description": "[game:Seven Card Stud]\r\n\r\n* Low hand gets half of pot\r\n* Low spots gets half of pot\r\n\r\nSpots: Center dots on cards:\r\n\r\n[card:ace of spades]:1\r\n\r\n[card:two of spades]:2\r\n\r\n[card:three of spades]:3\r\n\r\n[card:four of spades]:0\r\n\r\n[card:five of spades]:1\r\n\r\n[card:six of spades]:0\r\n\r\n[card:seven of spades]:1\r\n\r\n[card:eight of spades]:2\r\n\r\n[card:nine of spades]:1\r\n\r\n[card:ten of spades]:2\r\n\r\n[card:jack of spades]:0\r\n\r\n[card:queen of spades]:0\r\n\r\n[card:king of spades]:0",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T07:50:43.092Z",
+    "updated_at": "2013-09-03T07:52:52.591Z"
+  },
+  {
+    "id": 47,
+    "name": "Elbows",
+    "description": "Like [game:Criss-Cross], but instead of using linear community cards, players must use one of the four right angle triples formed.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:10:26.048Z",
+    "updated_at": "2013-09-03T05:10:26.048Z"
+  },
+  {
+    "id": 51,
+    "name": "Five Aces or You're an Asshole",
+    "description": "1. Five cards dealt to each player, five face down to community\r\n2. Round of betting\r\n3. Reveal one card at a time, followed by betting round, until each card is revealed.\r\n\r\nCards that match between a player's hole cards and community cards are wilds (so get two wilds at once)\r\nBest five card hand from five hole cards and five community wins.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T05:16:18.503Z",
+    "updated_at": "2013-09-03T05:16:18.503Z"
+  },
+  {
+    "id": 20,
+    "name": "Five Card Baseball",
+    "description": "1. Deal one card down, one up to each player.\r\n2. Round of betting\r\n3. Deal another up card\r\n4. Round of betting\r\n5. Repeat 3-4 until each player has 5 cards\r\n\r\nNines and threes are wild\r\nEach player who is dealt a wild must match the pot or fold\r\nPlayer dealt an up four immediately receives another card",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-02T23:09:56.070Z",
+    "updated_at": "2013-09-02T23:09:56.070Z"
+  },
+  {
+    "id": 1,
+    "name": "Five Card Draw",
+    "description": "1. Each player is dealt 5 cards.\r\n2. Player to dealer's left starts a round of betting.\r\n3. Each player may exchange up to 3 cards (4 if he reveals an ace as his remaining card).\r\n4. Player two positions to left of dealer begins a round of betting.\r\n5. Showdown for pot.",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T09:45:02.791Z",
+    "updated_at": "2013-09-02T09:45:02.791Z"
+  },
+  {
+    "id": 3,
+    "name": "Five Card Draw - High/Low Split",
+    "description": "Played the same as [game:Five Card Draw], except pot is split between high and low hands (straights and flushes don't count).",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      "hi-lo",
+      ""
+    ],
+    "created_at": "2013-09-02T09:48:00.709Z",
+    "updated_at": "2013-09-02T09:48:00.709Z"
+  },
+  {
+    "id": 7,
+    "name": "Five Card Draw - Jacks or Back",
+    "description": "1. Each player is dealt 5 cards\r\n2. Player must have a pair of jacks or better to open betting. \r\n3. If there is no bet, the game switches to lowball.\r\n4. Players may exchange up to 3 cards (4 if revealing other card to be an ace)\r\n5. Round of betting.\r\n6. Showdown",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T09:58:17.109Z",
+    "updated_at": "2013-09-02T09:58:17.109Z"
+  },
+  {
+    "id": 6,
+    "name": "Five Card Draw - Jacks or Better",
+    "description": "1. Players are dealt 5 cards each\r\n2. Only a player dealt a pair of jacks or better may open the bet.\r\n3. If there is no bet, the hand is dead, there is another ante and hand is redealt.\r\n4. If there is a bet, the player who opened must show their hand at some point (before trading cards away or folding)",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T09:56:07.633Z",
+    "updated_at": "2013-09-02T09:56:07.633Z"
+  },
+  {
+    "id": 8,
+    "name": "Five Card Draw - Jacks to Open, Trips to win",
+    "description": "Same as [game:Five Card Draw - Jacks or Better] except a player must have at least 3 of a kind to win, or the hand is redealt. (Only players still in ante and play again)",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T10:00:02.372Z",
+    "updated_at": "2013-09-02T10:00:02.372Z"
+  },
+  {
+    "id": 2,
+    "name": "Five Card Draw - Lowball",
+    "description": "Played the same as [game:Five Card Draw], only winner is player with lowest hand (straights and flushes don't count as high).",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T09:46:33.204Z",
+    "updated_at": "2013-09-02T09:46:33.204Z"
+  },
+  {
+    "id": 5,
+    "name": "Five Card Draw - Roll Cards",
+    "description": "1. Each player is dealt 5 cards\r\n2. Round of betting\r\n3. Each player may exchange up to 3 cards (4 if revealing an ace as remaining card)\r\n4. Round of betting\r\n5. Each player chooses one card to reveal.\r\n6. Betting starts with player with best hand showing\r\n7. Repeat steps 5-6 until all cards are revealed.",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T09:52:32.655Z",
+    "updated_at": "2013-09-02T09:52:32.655Z"
+  },
+  {
+    "id": 15,
+    "name": "Five Card Stud",
+    "description": "1. Each player is dealt one card facedown and one card faceup.\r\n2. A round of betting is started by player with highest poker hand showing.\r\n3. Each player is dealt an up card\r\n4. A round of betting is started by player with highest poker hand showing.\r\n5. Steps 3-4 are repeated until each player has five cards (four up, one down)",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T22:31:06.197Z",
+    "updated_at": "2013-09-02T22:31:06.197Z"
+  },
+  {
+    "id": 17,
+    "name": "Five Card Stud - Aces or Better to Win",
+    "description": "[game:Five Card Stud], only if nobody has at least a pair of aces, cards are redealt and betting continues.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T22:42:34.022Z",
+    "updated_at": "2013-09-02T22:42:34.022Z"
+  },
+  {
+    "id": 30,
+    "name": "Five Card Stud - High Chicago",
+    "description": "[game:Five Card Stud]\r\n\r\nPot is split between high hand and player with highest spade in the hole",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T01:31:41.312Z",
+    "updated_at": "2013-09-03T01:31:41.312Z"
+  },
+  {
+    "id": 16,
+    "name": "Five Card Stud - Lowball",
+    "description": "Played the same as [game:Five Card Stud], but with lowest hand winning (straights and flushes no counting against a player, and aces being low)",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T22:36:13.123Z",
+    "updated_at": "2013-09-02T22:36:13.123Z"
+  },
+  {
+    "id": 19,
+    "name": "Five Card Stud - Lowball with Replacement",
+    "description": "[game:Five Card Stud - Lowball], except after last card is dealt, player has option to replace one card, followed by another round of betting",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T22:58:07.268Z",
+    "updated_at": "2013-09-02T22:58:07.268Z"
+  },
+  {
+    "id": 31,
+    "name": "Five Card Stud - Low Chicago",
+    "description": "[game:Five Card Stud]\r\n\r\nPot is split between high hand and player with lowest spade in the hole",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T01:32:25.406Z",
+    "updated_at": "2013-09-03T01:32:25.406Z"
+  },
+  {
+    "id": 27,
+    "name": "Five Card Stud - Power",
+    "description": "[game:Five Card Stud]\r\n\r\nOnce the last card has been dealt, the player with the best poker hand showing may choose to either play the hand, or redeal a new hand.\r\n\r\nIf redeal is chosen, only players that have not folded play. Ante and continue as before.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T01:22:45.947Z",
+    "updated_at": "2013-09-03T01:22:45.947Z"
+  },
+  {
+    "id": 52,
+    "name": "Good vs. Evil",
+    "description": "1. Five cards dealt to each player\r\n2. Two rows of five cards dealt to community (ten total)\r\n3. One row is good, may be used by any player\r\n4. Other row is evil, cards of same rank must be thrown away immediately\r\n5. If a card in the good row is matched by an evil row, the card is evil.\r\n5. Bet after initial deal, expose a good and evil card, bet, etc\r\n6. Declare, showdown\r\n7. High/low split\r\n\r\nOption: If a player loses all cards, they win instantly",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:21:39.290Z",
+    "updated_at": "2013-09-03T05:27:23.256Z"
+  },
+  {
+    "id": 58,
+    "name": "Guts",
+    "description": "* Each player is dealt three cards down\r\n* Players place a chip in their hand if in, none if out\r\n* Players reveal simultaneously who is in\r\n\r\nA player who is in when nobody else is takes the pot.\r\nA player with the best hand when multiple people are in, gets paid the amount in the pot from each of the players who were in and lost.\r\n\r\n\r\nOption: If nobody stays in, player with best hand has to pay half the pot into the pot",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 3,
+    "tags": [
+      "pot-matching",
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T05:59:16.655Z",
+    "updated_at": "2013-09-03T06:00:02.568Z"
+  },
+  {
+    "id": 35,
+    "name": "Heartbreak",
+    "description": "[game:Seven Card Stud]\r\n\r\nIn this version of seven card stud, during the last card dealt face up, if a player is dealt a heart they must fold.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T02:59:06.010Z",
+    "updated_at": "2013-09-03T02:59:06.010Z"
+  },
+  {
+    "id": 10,
+    "name": "High Tide / Low Tide",
+    "description": "Same as [game:Spit in the Ocean], except pot is split between high and low hands.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      "hi-lo",
+      ""
+    ],
+    "created_at": "2013-09-02T10:04:26.127Z",
+    "updated_at": "2013-09-02T10:05:26.219Z"
+  },
+  {
+    "id": 11,
+    "name": "Hurricane",
+    "description": "1. Players are dealt 2 cards\r\n2. Round of betting\r\n3. Players may draw up to 2 cards\r\n4. Round of betting\r\n5. Declare High/Low\r\n6. Showdown\r\n\r\nOption: Deuces wild",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 2,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T10:07:16.565Z",
+    "updated_at": "2013-09-02T10:07:16.565Z"
+  },
+  {
+    "id": 50,
+    "name": "Lamebrain Pete",
+    "description": "[game:Cinncinnati], with lowest community card and all like it wild.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T05:13:28.153Z",
+    "updated_at": "2013-09-03T05:13:28.153Z"
+  },
+  {
+    "id": 64,
+    "name": "Limbo",
+    "description": "* Each player is dealt 6 cards face down (not allowed to look). \r\n* Deal seven cards face up on the table. Pick the best 5 card hand and discard the other two.\r\n* Player to left of dealer exposes a single card, round of betting\r\n* Next player exposes cards until they have the best hand on the table, round of betting\r\n* If a player's hand is better than the hand in the center, they fold\r\n* Play continues until one player is left, with best hand that doesn't beat the center",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 6,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T07:23:25.952Z",
+    "updated_at": "2013-09-03T07:23:25.952Z"
+  },
+  {
+    "id": 39,
+    "name": "Midnight Baseball",
+    "description": "1. Seven cards are dealt to each player\r\n2. Player to left of dealer reveals a card, round of betting.\r\n3. Next player reveals cards one at a time until they have the best poker hand on the table. Round of betting.\r\n4. If a player reveals all cards and doesn't have best hand, automatically folds.\r\n5. Play continues until one player is left\r\n\r\nRules of Baseball:\r\n1. Threes and Nines are wild\r\n2. Player has option to buy an extra card when a four is revealed",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 6,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T04:05:26.092Z",
+    "updated_at": "2013-09-03T04:05:26.092Z"
+  },
+  {
+    "id": 73,
+    "name": "Mississippi Stud",
+    "description": "Adapted from casino game\r\n\r\n1. Each player is dealt two cards face down\r\n2. Round of betting\r\n3. A community card is dealt\r\n4. Round of betting\r\n5. Repeat 3-4 two more times\r\n6. Showdown (two hole cards, three community)",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 20,
+    "num_cards": 2,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T08:13:54.716Z",
+    "updated_at": "2013-09-03T08:13:54.716Z"
+  },
+  {
+    "id": 72,
+    "name": "New Hampshire Lowdown",
+    "description": "* Hole card and matching rank are wild\r\n* Each player is dealt two cards down\r\n* Round of betting\r\n* Each player must choose to expose one card\r\n* Round of betting\r\n* Choose up or down for next card (if down, must expose hole card)\r\n* Round of betting\r\n* Continues until all players have four up cards and one down\r\n\r\nLow hand wins",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T08:08:59.534Z",
+    "updated_at": "2013-09-03T08:08:59.534Z"
+  },
+  {
+    "id": 38,
+    "name": "No-peek",
+    "description": "1. Seven cards are dealt to each player\r\n2. Player to left of dealer reveals a card, round of betting.\r\n3. Next player reveals cards one at a time until they have the best poker hand on the table. Round of betting.\r\n4. If a player reveals all cards and doesn't have best hand, automatically folds.\r\n5. Play continues until one player is left",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T04:04:02.309Z",
+    "updated_at": "2013-09-03T04:04:18.373Z"
+  },
+  {
+    "id": 44,
+    "name": "Omaha",
+    "description": "1. Each player is dealt four down cards\r\n2. Round of betting\r\n3. A card is burnt and three community cards are dealt\r\n4. Round of betting\r\n5. A card is burnt and a fourth community card is dealt\r\n6. Round of betting\r\n7. A card is burnt and a fifth community card is dealt\r\n8. Final round of betting\r\n\r\nWinner is player with best five card hand using two of their hole cards and three of the community (no more, no less)",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 11,
+    "num_cards": 4,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:03:38.168Z",
+    "updated_at": "2013-09-03T05:03:38.168Z"
+  },
+  {
+    "id": 45,
+    "name": "Omaha High / Low",
+    "description": "1. Each player is dealt four down cards\r\n2. Round of betting\r\n3. A card is burnt and three community cards are dealt\r\n4. Round of betting\r\n5. A card is burnt and a fourth community card is dealt\r\n6. Round of betting\r\n7. A card is burnt and a fifth community card is dealt\r\n8. Final round of betting\r\n\r\nWinner of high hand is player with best five card hand using two of their hole cards and three of the community (no more, no less)\r\nWinner of low hand is player with best five card hand using two of their hole cards and three of the community (no more, no less). The low hand must be eight high or lower, or the high hand takes the entire pot.\r\n",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 11,
+    "num_cards": 4,
+    "tags": [
+      "hi-lo",
+      ""
+    ],
+    "created_at": "2013-09-03T05:05:41.777Z",
+    "updated_at": "2013-09-03T05:05:41.777Z"
+  },
+  {
+    "id": 60,
+    "name": "Piles (Pass the trash)",
+    "description": "* Each player starts with three piles of chips\r\n* Each player is dealt one card\r\n* Player to dealer's left may keep his card or exchange with player to his left\r\n* Dealer has option to keep his card or take top card from deck\r\n* Aces are low\r\n* Player holding a king may reject a pass\r\n* Lowest hand loses a pile\r\n\r\nPlay continues **without reshuffling the deck** until the deck is depleted or only one person has any piles remaining",
+    "style_id": 4,
+    "min_players": 2,
+    "max_players": 50,
+    "num_cards": 1,
+    "tags": [
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T06:05:28.317Z",
+    "updated_at": "2013-09-03T06:05:32.631Z"
+  },
+  {
+    "id": 66,
+    "name": "Ralph",
+    "description": "* Each player is dealt a three card hand face down\r\n* Two four card hands are dealt in the center\r\n* Each player has four choices\r\n   1. Stay in\r\n   2. Be out\r\n   3. Take one of the four card hands (must be in)\r\n   4. Exchange a single card (must be in)\r\n* Must match pot to winner\r\n* If only one player is in, that person takes the pot\r\n\r\nAnte, shuffle, and deal new hands until winning conditions are met",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 11,
+    "num_cards": 3,
+    "tags": [
+      "pot-matching",
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T07:46:03.744Z",
+    "updated_at": "2013-09-03T07:47:31.885Z"
+  },
+  {
+    "id": 24,
+    "name": "Razz",
+    "description": "[game:Seven Card Stud] lowball",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T00:45:28.237Z",
+    "updated_at": "2013-09-03T00:45:28.237Z"
+  },
+  {
+    "id": 34,
+    "name": "Rexticles",
+    "description": "A modified version of [game:The Good, the Bad, and The Ugly]\r\n\r\nThe difference being that cards are laid in the center as follows: three goods, two bads, and one ugly (The Rexticle)\r\n\r\n",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 6,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T02:57:20.395Z",
+    "updated_at": "2013-09-03T02:57:20.395Z"
+  },
+  {
+    "id": 54,
+    "name": "Schneiders",
+    "description": "1. Ante, declare two wilds, deal two down to each player\r\n2. Deal nine community cards in a square face up\r\n3. Players must use three cards in a row (horizontal, vertical, or diagonal) to combine with two hole cards to make best five card hand\r\n4. Players must declare in or out (either drop method, or by hiding a chip in their hand and revealing to declare in)\r\n5. Best hand wins, other players must pay winner the amount in the pot\r\n6. Game ends when one person stays in and nobody else does.\r\n\r\nAnte between rounds.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 21,
+    "num_cards": 2,
+    "tags": [
+      "wildcard",
+      "pot-matching",
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T05:32:01.009Z",
+    "updated_at": "2013-09-03T05:34:02.407Z"
+  },
+  {
+    "id": 23,
+    "name": "Seven Card Stud",
+    "description": "1. Each player is dealt two cards down and one up\r\n2. Round of betting\r\n3. Each player dealt one card up.\r\n4. Round of betting\r\n5. Repeat 3-4 until each player has 4 cards up.\r\n6. Deal a last card down\r\n7. Final round of betting\r\n\r\nWinner is best 5 card hand",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T00:34:54.256Z",
+    "updated_at": "2013-09-03T00:34:54.256Z"
+  },
+  {
+    "id": 32,
+    "name": "Seven Card Stud - Follow the Queen",
+    "description": "[game:Seven Card Stud]\r\n\r\nQueens are wild\r\nThe last card following the last up queen is wild.\r\n\r\nCards following a queen are treated as wild until another queen is revealed.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T01:42:44.794Z",
+    "updated_at": "2013-09-03T01:42:44.794Z"
+  },
+  {
+    "id": 28,
+    "name": "Seven Card Stud - High Chicago",
+    "description": "[game:Seven Card Stud]\r\n\r\nPot is split between high hand and player with highest spade in the hole",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T01:30:17.342Z",
+    "updated_at": "2013-09-03T01:30:17.342Z"
+  },
+  {
+    "id": 29,
+    "name": "Seven Card Stud - Low Chicago",
+    "description": "[game:Seven Card Stud]\r\n\r\nPot is split between high hand and player with lowest spade in the hole",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T01:30:44.588Z",
+    "updated_at": "2013-09-03T01:30:44.588Z"
+  },
+  {
+    "id": 25,
+    "name": "Seven Card Stud - Low in the Hole is Wild",
+    "description": "[game:Seven Card Stud]\r\n\r\nLow Card in the hole is wild, as are matching rank cards. \r\ni.e. if player has [card:two of clubs][card:7 of spades], each two that player has is considered wild.\r\n\r\nMay give the option to allow players to choose whether they receive their last card up or down.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T01:02:47.000Z",
+    "updated_at": "2013-09-03T01:02:47.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Seven Card Stud - Power",
+    "description": "[game:Seven Card Stud]\r\n\r\nOnce the last card has been dealt, the player with the best poker hand showing may choose to either play the hand, or redeal a new hand. \r\n\r\nIf redeal is chosen, only players that have not folded play. \r\nAnte and continue as before.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T01:14:10.998Z",
+    "updated_at": "2013-09-03T01:14:10.998Z"
+  },
+  {
+    "id": 61,
+    "name": "Shit on your neighbor",
+    "description": "Played like [game:Piles (Pass the trash)], except paired cards are safe from elimination",
+    "style_id": 4,
+    "min_players": 2,
+    "max_players": 50,
+    "num_cards": 1,
+    "tags": [
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T06:06:28.893Z",
+    "updated_at": "2013-09-03T06:06:50.662Z"
+  },
+  {
+    "id": 4,
+    "name": "Shotgun",
+    "description": "1. Each player is dealt 3 cards.\r\n2. Round of betting\r\n3. Each player is dealt a 4th card.\r\n4. Round of betting\r\n5. Each player is dealt a 5th card.\r\n6. Final round of betting\r\n7. Showdown",
+    "style_id": 1,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-02T09:49:27.343Z",
+    "updated_at": "2013-09-02T09:49:27.343Z"
+  },
+  {
+    "id": 9,
+    "name": "Spit in the Ocean",
+    "description": "1. Players are dealt 4 cards down, with one community card dealt faceup whenever a player says \"Spit!\" (Dealer deals next card to community and continues deal.)\r\n2. Community cards is wild, as are the cards of the same rank",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-02T10:03:20.297Z",
+    "updated_at": "2013-09-02T10:03:20.297Z"
+  },
+  {
+    "id": 36,
+    "name": "Stud-Jack",
+    "description": "[game:Seven Card Stud]\r\n\r\nIn this version of seven card stud, the hole cards are treated as a blackjack hand. Players may choose to take their last card up or down (dealer may charge to the pot for this). The pot is split between the best poker hand and the best hole blackjack hand.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T03:01:02.405Z",
+    "updated_at": "2013-09-03T03:01:02.405Z"
+  },
+  {
+    "id": 43,
+    "name": "Texas Hold'em",
+    "description": "1. Each player is dealt two down cards\r\n2. Round of betting\r\n3. A card is burnt and three community cards are dealt\r\n4. Round of betting\r\n5. A card is burnt and a fourth community card is dealt\r\n6. Round of betting\r\n7. A card is burnt and a fifth community card is dealt\r\n8. Final round of betting\r\n\r\nWinner is player with best five card hand between hole cards and community",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 22,
+    "num_cards": 2,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:02:22.720Z",
+    "updated_at": "2013-09-03T05:02:22.720Z"
+  },
+  {
+    "id": 33,
+    "name": "The Good, the Bad, and The Ugly",
+    "description": "[game:Seven Card Stud]\r\n\r\nThree cards are placed in the middle. \r\nThe first to be flipped, \"The Good\", sets a wild\r\nThe second to be flipped, \"The Bad\", must be thrown away\r\nThe third to be flipped, \"The Ugly\", kills a hand\r\nAny good may also be an ugly. \r\n\r\nFor example, if the three cards are [card:ten of spades][card:five of hearts][card:jack of diamonds]:\r\n\r\nThese cards are wild: [card:ten of hearts][card:ten of diamonds][card:ten of clubs]\r\n\r\nThese cards must be thrown away: [card:five of diamonds][card:five of clubs][card:five of spades]\r\n\r\nAny player with these must immediately fold:[card:jack of hearts][card:jack of clubs][card:jack of spades]\r\n\r\nThe dealer may call the option of having a \"buy back\" cards, where a player may pay a set amount to return one card before the ugly is flipped.\r\n\r\nThe dealer has the option of revealing the good, the bad, and the ugly after any round of betting. ",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T02:03:35.091Z",
+    "updated_at": "2013-09-03T02:58:01.691Z"
+  },
+  {
+    "id": 22,
+    "name": "Three Card Substitution",
+    "description": "Dealt like [game:Five Card Stud]\r\n\r\nAfter each player has five cards, the player to the left of the player with the lowest card showing may substitute any card for 1X the ante. Each player gets the same opportunity.\r\n\r\nRound of betting\r\n\r\nPlayer to left of the player with the lowest card showing may substitute any card for 2X the ante. Each player gets the same opportunity.\r\n\r\nRound of betting\r\n\r\nPlayer to left of the player with the lowest card showing may substitute any card for 3X the ante. Each player gets the same opportunity.\r\n\r\nRound of betting\r\n\r\nShowdown",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 6,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T00:00:23.220Z",
+    "updated_at": "2013-09-03T00:00:23.220Z"
+  },
+  {
+    "id": 68,
+    "name": "Trees",
+    "description": "1. Deal every player five cards face down\r\n2. Bet\r\n3. Call trades open\r\n4. Players trade equal numbers of cards amongst themselves\r\n5. Trade is done when everyone is satisfied, or set time passes\r\n6. Roll one card at a time with a bet after each\r\n\r\nSplit between high and low",
+    "style_id": 4,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 5,
+    "tags": [
+      "hi-lo",
+      ""
+    ],
+    "created_at": "2013-09-03T07:55:11.015Z",
+    "updated_at": "2013-09-03T07:55:11.015Z"
+  },
+  {
+    "id": 41,
+    "name": "Turkey",
+    "description": "[game:Seven Card Stud]\r\n\r\nDuring each up card dealt, a card is revealed to the community and there is a bid on that card to replace a card in the player's hand. High bidder gets the card.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 6,
+    "num_cards": 7,
+    "tags": [
+      "dickish",
+      ""
+    ],
+    "created_at": "2013-09-03T04:39:11.374Z",
+    "updated_at": "2013-09-03T04:39:11.374Z"
+  },
+  {
+    "id": 37,
+    "name": "Two-Thirds",
+    "description": "Normal [game:Seven Card Stud], but winner must have two of three:\r\n\r\n1. Best 5 card hand\r\n2. Highest Spade in the hole\r\n3. Lowest Spade in the hole\r\n\r\nOtherwise, the pot rolls over and a new hand is dealt.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T04:00:46.529Z",
+    "updated_at": "2013-09-03T04:00:46.529Z"
+  },
+  {
+    "id": 53,
+    "name": "Use and Lose",
+    "description": "[game:Good vs. Evil], split between high hand and lowest total counting (Aces are worth 1, face cards 10, other cards their rank)",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:26:51.367Z",
+    "updated_at": "2013-09-03T05:26:51.367Z"
+  },
+  {
+    "id": 49,
+    "name": "Utah",
+    "description": "[game:Cinncinnati], with center community card and all like it wild",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 9,
+    "num_cards": 5,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2013-09-03T05:12:43.500Z",
+    "updated_at": "2013-09-03T05:12:43.500Z"
+  },
+  {
+    "id": 57,
+    "name": "Zero",
+    "description": "* Red cards are negative\r\n* Black cards are positive\r\n* Deal 1 up, 1 down\r\n* Round of betting\r\n* may take an additional card, one at a time, up to 5x (with a round of betting in between each)\r\n\r\nClosest to zero wins",
+    "style_id": 5,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 2,
+    "tags": [
+      ""
+    ],
+    "created_at": "2013-09-03T05:56:52.155Z",
+    "updated_at": "2013-09-03T05:56:52.155Z"
+  }
+]

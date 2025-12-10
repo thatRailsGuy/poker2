@@ -1,0 +1,93 @@
+/* Custom styles for Poker House */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.badge {
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+/* Table styling */
+.table {
+  background-color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Navigation */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Alert styling */
+.alert {
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+.btn-group {
+  margin-bottom: 1rem;
+}
+
+/* Card game specific styles */
+.game-card {
+  transition: transform 0.2s;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tag styling */
+.badge-primary {
+  background-color: #0d6efd;
+  color: white;
+  text-decoration: none;
+  padding: 0.35em 0.65em;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.badge-primary:hover {
+  background-color: #0b5ed7;
+  color: white;
+}
+
+/* Markdown content styling */
+.card-text h1, .card-text h2, .card-text h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text ul, .card-text ol {
+  margin-left: 1.5rem;
+}
+
+.card-text p {
+  margin-bottom: 0.5rem;
+}

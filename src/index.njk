@@ -1,0 +1,49 @@
+---
+layout: layout.njk
+title: Welcome
+permalink: /
+---
+
+<div class="jumbotron bg-light p-5 rounded-3">
+  <h1 class="display-4">Welcome to Poker House</h1>
+  <p class="lead">A comprehensive repository of poker and card game variants</p>
+  <hr class="my-4">
+  <p>Browse our collection of poker games, learn about different playing styles, and discover new variants to play with friends.</p>
+  <a class="btn btn-primary btn-lg" href="/games/" role="button">Browse All Games</a>
+</div>
+
+<div class="row mt-5">
+  <div class="col-md-4">
+    <h3>Recently Added Games</h3>
+    <ul class="list-group">
+      {% for game in games | newest(5) %}
+      <li class="list-group-item">
+        <a href="/games/{{ game.id }}/">{{ game.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-md-4">
+    <h3>Recently Updated</h3>
+    <ul class="list-group">
+      {% for game in games | recent(5) %}
+      <li class="list-group-item">
+        <a href="/games/{{ game.id }}/">{{ game.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-md-4">
+    <h3>Random Games</h3>
+    <ul class="list-group">
+      {% for i in range(0, 5) %}
+      {% set randomGame = games | random %}
+      <li class="list-group-item">
+        <a href="/games/{{ randomGame.id }}/">{{ randomGame.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

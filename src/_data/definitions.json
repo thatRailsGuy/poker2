@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "word": "Ante",
+    "definition": "A small bet all players are required to make before a hand is dealt.",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "word": "Blind",
+    "definition": "A forced bet placed by one or two players before cards are dealt.",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "word": "Flop",
+    "definition": "In community card games, the first three community cards dealt.",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "word": "River",
+    "definition": "The fifth and final community card in games like Texas Hold'em.",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "word": "Turn",
+    "definition": "The fourth community card in games like Texas Hold'em.",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,39 @@
+---
+layout: layout.njk
+pagination:
+  data: games
+  size: 1
+  alias: game
+permalink: /games/{{ game.id }}/
+---
+
+<div class="alert alert-success" role="alert" id="notice"></div>
+
+<h1>{{ game.name }}</h1>
+
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Description</h5>
+    <div class="card-text">
+      {{ game.description | markdown | safe }}
+    </div>
+  </div>
+</div>
+
+<p><strong>Style:</strong> {{ styles | getStyleById(game.style_id) }}</p>
+<p><strong>Min players:</strong> {{ game.min_players }}</p>
+<p><strong>Max players:</strong> {{ game.max_players }}</p>
+<p><strong>Num cards:</strong> {{ game.num_cards }}</p>
+
+{% if game.tags and game.tags.length > 0 %}
+<p>
+  <strong>Tags:</strong>
+  {% for tag in game.tags %}
+    {{ tag | clickableTag | safe }}
+  {% endfor %}
+</p>
+{% endif %}
+
+<div class="mt-3">
+  <a href="/games/" class="btn btn-secondary">Back to Games</a>
+</div>

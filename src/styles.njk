@@ -1,0 +1,28 @@
+---
+layout: layout.njk
+title: Styles
+permalink: /styles/
+---
+
+<h1>Poker Game Styles</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for style in styles | sortBy('name') %}
+    <tr>
+      <td><a href="/styles/{{ style.id }}/">{{ style.name }}</a></td>
+      <td>{{ style.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="mt-3">
+  <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>

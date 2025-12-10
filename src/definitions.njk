@@ -1,0 +1,28 @@
+---
+layout: layout.njk
+title: Poker Definitions
+permalink: /definitions/
+---
+
+<h1>Poker Term Definitions</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for definition in definitions | sortBy('word') %}
+    <tr>
+      <td><strong>{{ definition.word }}</strong></td>
+      <td>{{ definition.definition }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="mt-3">
+  <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>

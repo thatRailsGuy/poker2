@@ -1,0 +1,41 @@
+---
+layout: layout.njk
+title: Random Game
+permalink: /games/random/
+---
+
+{% set randomGame = games | random %}
+
+<h1>Random Game: {{ randomGame.name }}</h1>
+
+<div class="alert alert-info">
+  <p>Here's a randomly selected game for you to try!</p>
+</div>
+
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Description</h5>
+    <div class="card-text">
+      {{ randomGame.description | markdown | safe }}
+    </div>
+  </div>
+</div>
+
+<p><strong>Style:</strong> {{ styles | getStyleById(randomGame.style_id) }}</p>
+<p><strong>Min players:</strong> {{ randomGame.min_players }}</p>
+<p><strong>Max players:</strong> {{ randomGame.max_players }}</p>
+<p><strong>Num cards:</strong> {{ randomGame.num_cards }}</p>
+
+{% if randomGame.tags and randomGame.tags.length > 0 %}
+<p>
+  <strong>Tags:</strong>
+  {% for tag in randomGame.tags %}
+    {{ tag | clickableTag | safe }}
+  {% endfor %}
+</p>
+{% endif %}
+
+<div class="mt-3">
+  <a href="/games/random/" class="btn btn-primary">Get Another Random Game</a>
+  <a href="/games/" class="btn btn-secondary">Back to All Games</a>
+</div>
