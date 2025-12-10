@@ -9,6 +9,9 @@ module.exports = function(eleventyConfig) {
     linkify: true
   }).use(markdownItAttrs);
 
+  // Get path prefix from environment
+  const pathPrefix = process.env.ELEVENTY_PATH_PREFIX || '';
+
   // Custom filter for rendering markdown with game links and card images
   eleventyConfig.addFilter('markdown', (content, games) => {
     if (!content) return '';
@@ -18,7 +21,7 @@ module.exports = function(eleventyConfig) {
       // Find the game by name
       const game = games?.find(g => g.name === gameName);
       if (game) {
-        return `[${gameName}](/games/${game.id}/)`;
+        return `[${gameName}](${pathPrefix}/games/${game.id}/)`;
       }
       return gameName; // Fallback to just the name if game not found
     });
@@ -163,6 +166,7 @@ module.exports = function(eleventyConfig) {
     templateFormats: ['md', 'njk', 'html', 'liquid'],
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk'
+    dataTemplateEngine: 'njk',
+    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || '/'
   };
 };

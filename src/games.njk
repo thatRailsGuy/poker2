@@ -12,7 +12,7 @@ permalink: /games/
 <div class="row mb-3">
   <div class="col-md-12">
     <div class="btn-group" role="group">
-      <a href="/games/" class="btn btn-outline-secondary">Show All</a>
+      <a href="{{ '/games/' | url }}" class="btn btn-outline-secondary">Show All</a>
     </div>
   </div>
 </div>
@@ -32,7 +32,7 @@ permalink: /games/
   <tbody>
     {% for game in games | sortBy('name') %}
     <tr>
-      <td><a href="/games/{{ game.id }}/">{{ game.name }}</a></td>
+      <td><a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a></td>
       <td>{{ styles | getStyleById(game.style_id) }}</td>
       <td>{{ game.min_players }}</td>
       <td>{{ game.max_players }}</td>
@@ -53,5 +53,5 @@ permalink: /games/
 {% endif %}
 
 <div class="mt-3">
-  <a href="/" class="btn btn-secondary">Back to Home</a>
+  <a href="{{ '/' | url }}" class="btn btn-secondary">Back to Home</a>
 </div>

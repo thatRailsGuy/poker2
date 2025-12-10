@@ -17,12 +17,12 @@ permalink: /styles/{{ style.id }}/
   {% for game in games %}
     {% if game.style_id == style.id %}
     <li class="list-group-item">
-      <a href="/games/{{ game.id }}/">{{ game.name }}</a>
+      <a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a>
     </li>
     {% endif %}
   {% endfor %}
 </ul>
 
 <div class="mt-3">
-  <a href="/styles/" class="btn btn-secondary">Back to Styles</a>
+  <a href="{{ '/styles/' | url }}" class="btn btn-secondary">Back to Styles</a>
 </div>

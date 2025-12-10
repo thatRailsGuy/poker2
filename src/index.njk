@@ -9,7 +9,7 @@ permalink: /
   <p class="lead">A comprehensive repository of poker and card game variants</p>
   <hr class="my-4">
   <p>Browse our collection of poker games, learn about different playing styles, and discover new variants to play with friends.</p>
-  <a class="btn btn-primary btn-lg" href="/games/" role="button">Browse All Games</a>
+  <a class="btn btn-primary btn-lg" href="{{ '/games/' | url }}" role="button">Browse All Games</a>
 </div>
 
 <div class="row mt-5">
@@ -18,7 +18,7 @@ permalink: /
     <ul class="list-group">
       {% for game in games | newest(5) %}
       <li class="list-group-item">
-        <a href="/games/{{ game.id }}/">{{ game.name }}</a>
+        <a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a>
       </li>
       {% endfor %}
     </ul>
@@ -29,7 +29,7 @@ permalink: /
     <ul class="list-group">
       {% for game in games | recent(5) %}
       <li class="list-group-item">
-        <a href="/games/{{ game.id }}/">{{ game.name }}</a>
+        <a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a>
       </li>
       {% endfor %}
     </ul>
@@ -41,7 +41,7 @@ permalink: /
       {% for i in range(0, 5) %}
       {% set randomGame = games | random %}
       <li class="list-group-item">
-        <a href="/games/{{ randomGame.id }}/">{{ randomGame.name }}</a>
+        <a href="{{ ('/games/' + randomGame.id + '/') | url }}">{{ randomGame.name }}</a>
       </li>
       {% endfor %}
     </ul>
