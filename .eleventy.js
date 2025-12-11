@@ -65,7 +65,10 @@ module.exports = function(eleventyConfig) {
         if (rankCode && suitCode) {
           // Use deckofcardsapi.com for card images
           const cardCode = `${rankCode}${suitCode}`;
-          return `<img src="https://deckofcardsapi.com/static/img/${cardCode}.png" alt="${cardName}" class="card-img">`;
+          // Create descriptive alt text
+          const rankName = rank.charAt(0).toUpperCase() + rank.slice(1);
+          const suitName = suit.charAt(0).toUpperCase() + suit.slice(1);
+          return `<img src="https://deckofcardsapi.com/static/img/${cardCode}.png" alt="${rankName} of ${suitName}" class="card-img" role="img">`;
         }
       }
       return cardName; // Fallback to text if parsing fails

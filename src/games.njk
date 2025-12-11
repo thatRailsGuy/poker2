@@ -11,7 +11,8 @@ permalink: /games/
 
 <div class="row mb-3">
   <div class="col-md-6">
-    <input type="text" id="game-search" class="form-control" placeholder="Search games by name, description, or tags...">
+    <label for="game-search" class="visually-hidden">Search games</label>
+    <input type="text" id="game-search" class="form-control" placeholder="Search games by name, description, or tags..." aria-describedby="search-results">
   </div>
   <div class="col-md-6">
     <div class="btn-group" role="group">
@@ -26,12 +27,12 @@ permalink: /games/
 <table class="table table-striped" id="games-table">
   <thead>
     <tr>
-      <th class="sortable" data-column="0">Name <span class="sort-indicator"></span></th>
-      <th class="sortable" data-column="1">Style <span class="sort-indicator"></span></th>
-      <th class="sortable" data-column="2">Min Players <span class="sort-indicator"></span></th>
-      <th class="sortable" data-column="3">Max Players <span class="sort-indicator"></span></th>
-      <th class="sortable" data-column="4">Number of Cards <span class="sort-indicator"></span></th>
-      <th>Tags</th>
+      <th scope="col" class="sortable" data-column="0">Name <span class="sort-indicator" aria-hidden="true"></span></th>
+      <th scope="col" class="sortable" data-column="1">Style <span class="sort-indicator" aria-hidden="true"></span></th>
+      <th scope="col" class="sortable" data-column="2">Min Players <span class="sort-indicator" aria-hidden="true"></span></th>
+      <th scope="col" class="sortable" data-column="3">Max Players <span class="sort-indicator" aria-hidden="true"></span></th>
+      <th scope="col" class="sortable" data-column="4">Number of Cards <span class="sort-indicator" aria-hidden="true"></span></th>
+      <th scope="col">Tags</th>
     </tr>
   </thead>
   <tbody>

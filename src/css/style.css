@@ -1,9 +1,27 @@
-/* Custom styles for Poker House */
+/* Custom styles for Poker House - Dark Mode */
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
 
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #212529;
+  color: #dee2e6;
 }
 
 .container {
@@ -20,21 +38,31 @@ footer {
 }
 
 .jumbotron {
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
+  background-color: #343a40;
+  border: 1px solid #495057;
+  color: #dee2e6;
 }
 
 .card {
   margin-bottom: 1rem;
+  background-color: #343a40;
+  border-color: #495057;
+  color: #dee2e6;
+}
+
+.card-body {
+  background-color: #343a40;
 }
 
 /* Table styling */
 .table {
-  background-color: white;
+  --bs-table-bg: #2b3035;
+  --bs-table-striped-bg: #343a40;
+  color: #dee2e6;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Navigation */
@@ -112,11 +140,67 @@ th.sortable {
 }
 
 th.sortable:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 th.sortable .sort-indicator {
   font-size: 0.8em;
-  color: #6c757d;
+  color: #adb5bd;
   margin-left: 0.25rem;
+}
+
+/* Dark mode specific overrides */
+.lead {
+  color: #adb5bd;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+a {
+  color: #6ea8fe;
+}
+
+a:hover {
+  color: #9ec5fe;
+}
+
+.border-top {
+  border-color: #495057 !important;
+}
+
+/* Enhanced focus indicators for accessibility */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.btn:focus,
+.nav-link:focus,
+.sortable:focus {
+  outline: 3px solid #6ea8fe;
+  outline-offset: 2px;
+}
+
+/* Visually hidden class for screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Improved text contrast */
+.lead {
+  color: #cbd5e0;
+}
+
+.text-muted {
+  color: #8b95a1 !important;
 }
