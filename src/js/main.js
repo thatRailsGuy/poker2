@@ -87,6 +87,64 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  // Table sorting functionality
+  const gamesTable = document.getElementById('games-table');
+  if (gamesTable) {
+    const headers = gamesTable.querySelectorAll('th.sortable');
+    let sortDirection = {};
+
+    headers.forEach(header => {
+      const columnIndex = parseInt(header.dataset.column);
+      sortDirection[columnIndex] = 'asc';
+
+      header.style.cursor = 'pointer';
+      header.addEventListener('click', function() {
+        sortTable(columnIndex);
+      });
+    });
+
+    function sortTable(columnIndex) {
+      const tbody = gamesTable.querySelector('tbody');
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+
+      // Toggle sort direction
+      const isAsc = sortDirection[columnIndex] === 'asc';
+      sortDirection[columnIndex] = isAsc ? 'desc' : 'asc';
+
+      // Update sort indicators
+      headers.forEach(h => {
+        const indicator = h.querySelector('.sort-indicator');
+        if (parseInt(h.dataset.column) === columnIndex) {
+          indicator.textContent = isAsc ? ' ▲' : ' ▼';
+        } else {
+          indicator.textContent = '';
+        }
+      });
+
+      // Sort rows
+      rows.sort((a, b) => {
+        const aCell = a.querySelectorAll('td')[columnIndex];
+        const bCell = b.querySelectorAll('td')[columnIndex];
+
+        let aValue = aCell.textContent.trim();
+        let bValue = bCell.textContent.trim();
+
+        // Try to parse as numbers for numeric columns
+        if (columnIndex >= 2 && columnIndex <= 4) {
+          aValue = parseInt(aValue) || 0;
+          bValue = parseInt(bValue) || 0;
+        }
+
+        if (aValue < bValue) return isAsc ? -1 : 1;
+        if (aValue > bValue) return isAsc ? 1 : -1;
+        return 0;
+      });
+
+      // Re-append rows in sorted order
+      rows.forEach(row => tbody.appendChild(row));
+    }
+  }
+
   // Add smooth scrolling to anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
