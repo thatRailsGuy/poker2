@@ -159,8 +159,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Auto-hide alerts after 5 seconds
-  const alerts = document.querySelectorAll('.alert:not(.alert-info)');
+  // Auto-hide only dismissible alerts (flash messages) after 5 seconds
+  const alerts = document.querySelectorAll('.alert.alert-dismissible');
   alerts.forEach(alert => {
     if (alert.textContent.trim()) {
       setTimeout(() => {
