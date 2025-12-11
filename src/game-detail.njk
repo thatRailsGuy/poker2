@@ -29,9 +29,5 @@ permalink: /games/{{ game.id }}/
   {% for tag in game.tags %}
     {{ tag | clickableTag | safe }}
   {% endfor %}
-</p>
+  </p>
 {% endif %}
-
-<div class="mt-3">
-  <a href="{{ '/games/' | url }}" class="btn btn-secondary">Back to Games</a>
-</div>
