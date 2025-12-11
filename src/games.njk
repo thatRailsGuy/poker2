@@ -10,12 +10,17 @@ permalink: /games/
 <h1>Poker Games</h1>
 
 <div class="row mb-3">
-  <div class="col-md-12">
+  <div class="col-md-6">
+    <input type="text" id="game-search" class="form-control" placeholder="Search games by name, description, or tags...">
+  </div>
+  <div class="col-md-6">
     <div class="btn-group" role="group">
       <a href="{{ '/games/' | url }}" class="btn btn-outline-secondary">Show All</a>
     </div>
   </div>
 </div>
+
+<div id="search-results" class="alert alert-info d-none mb-3"></div>
 
 {% if games %}
 <table class="table table-striped">

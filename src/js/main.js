@@ -9,26 +9,82 @@ document.addEventListener('DOMContentLoaded', function() {
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   }
 
-  // Handle search functionality
-  const searchInput = document.querySelector('input[name="search"]');
-  if (searchInput) {
+  // Handle search functionality on games page
+  const gameSearchInput = document.getElementById('game-search');
+  const searchResults = document.getElementById('search-results');
+
+  if (gameSearchInput) {
+    // Get search term from URL
     const searchTerm = getUrlParameter('search');
     if (searchTerm) {
-      searchInput.value = searchTerm;
+      gameSearchInput.value = searchTerm;
+      performSearch(searchTerm);
+    }
+
+    // Add search input listener
+    gameSearchInput.addEventListener('input', function(e) {
+      performSearch(e.target.value);
+    });
+  }
+
+  function performSearch(searchTerm) {
+    const rows = document.querySelectorAll('table tbody tr');
+    const term = searchTerm.toLowerCase().trim();
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+      if (!term) {
+        row.style.display = '';
+        visibleCount++;
+        return;
+      }
+
+      // Search in name (first cell) and tags (last cell)
+      const name = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
+      const tags = row.querySelector('td:last-child')?.textContent.toLowerCase() || '';
+      const style = row.querySelector('td:nth-child(2)')?.textContent.toLowerCase() || '';
+
+      if (name.includes(term) || tags.includes(term) || style.includes(term)) {
+        row.style.display = '';
+        visibleCount++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+
+    // Update search results message
+    if (searchResults) {
+      if (term && visibleCount === 0) {
+        searchResults.textContent = 'No games found matching your search.';
+        searchResults.classList.remove('d-none', 'alert-info');
+        searchResults.classList.add('alert-warning');
+      } else if (term && visibleCount > 0) {
+        searchResults.textContent = `Found ${visibleCount} game${visibleCount !== 1 ? 's' : ''} matching "${searchTerm}"`;
+        searchResults.classList.remove('d-none', 'alert-warning');
+        searchResults.classList.add('alert-info');
+      } else {
+        searchResults.classList.add('d-none');
+      }
     }
   }
 
   // Handle tag filtering
   const tagParam = getUrlParameter('tag');
   if (tagParam && window.location.pathname.includes('/games/')) {
-    // Filter games by tag client-side
-    const rows = document.querySelectorAll('table tbody tr');
-    rows.forEach(row => {
-      const tags = row.querySelector('td:last-child');
-      if (tags && !tags.textContent.includes(tagParam)) {
-        row.style.display = 'none';
-      }
-    });
+    // If there's a tag parameter and a search input, use it
+    if (gameSearchInput) {
+      gameSearchInput.value = tagParam;
+      performSearch(tagParam);
+    } else {
+      // Fallback for pages without search input
+      const rows = document.querySelectorAll('table tbody tr');
+      rows.forEach(row => {
+        const tags = row.querySelector('td:last-child');
+        if (tags && !tags.textContent.includes(tagParam)) {
+          row.style.display = 'none';
+        }
+      });
+    }
   }
 
   // Add smooth scrolling to anchor links
