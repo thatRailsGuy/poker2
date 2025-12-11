@@ -25,10 +25,10 @@ permalink: /games/random/
 <script>
   const gameIds = JSON.parse(document.querySelector("#game-list").textContent);
   const randomId = gameIds[Math.floor(Math.random() * gameIds.length)];
-  const pathPrefix = '{{ "" | url }}';
+  const pathPrefix = '{{ "/" | url }}';
 
   setTimeout(() => {
-    window.location = `${pathPrefix}/games/${randomId}/`;
+    window.location = `${pathPrefix}games/${randomId}/`;
   }, 2000);
 </script>
 
