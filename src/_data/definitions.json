@@ -3,6 +3,7 @@
     "id": 1,
     "word": "Ante",
     "definition": "A small bet all players are required to make before a hand is dealt.",
+    "category": "Betting Actions",
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "word": "Blind",
     "definition": "A forced bet placed by one or two players before cards are dealt.",
+    "category": "Betting Actions",
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "word": "Flop",
     "definition": "In community card games, the first three community cards dealt.",
+    "category": "Card Types",
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   },
@@ -24,6 +27,7 @@
     "id": 4,
     "word": "River",
     "definition": "The fifth and final community card in games like Texas Hold'em.",
+    "category": "Card Types",
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   },
@@ -31,6 +35,183 @@
     "id": 5,
     "word": "Turn",
     "definition": "The fourth community card in games like Texas Hold'em.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "word": "Pot",
+    "definition": "The total amount of money or chips bet in a hand.",
+    "category": "Betting Actions",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "word": "Call",
+    "definition": "Matching the current bet to stay in the hand.",
+    "category": "Betting Actions",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "word": "Raise",
+    "definition": "Increasing the current bet, forcing other players to match the new amount to stay in.",
+    "category": "Betting Actions",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "word": "Fold",
+    "definition": "Surrendering your hand and forfeiting any bets made in the current hand.",
+    "category": "Betting Actions",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "word": "Check",
+    "definition": "Passing the action to the next player without betting when no bet is required.",
+    "category": "Betting Actions",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 11,
+    "word": "All-in",
+    "definition": "Betting all of your remaining chips on a hand.",
+    "category": "Betting Actions",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 12,
+    "word": "Showdown",
+    "definition": "When remaining players reveal their hands to determine the winner.",
+    "category": "Game Structure & Variants",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 13,
+    "word": "Hole Cards",
+    "definition": "Cards dealt face-down that only the individual player can see.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 14,
+    "word": "Community Cards",
+    "definition": "Cards dealt face-up in the center of the table that all players can use to make their hand.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 15,
+    "word": "Draw",
+    "definition": "Exchanging one or more cards from your hand for new cards from the deck.",
+    "category": "Game Structure & Variants",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 16,
+    "word": "Stud",
+    "definition": "A poker variant where some cards are dealt face-up and some face-down, with betting rounds between cards.",
+    "category": "Game Structure & Variants",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 17,
+    "word": "Lowball",
+    "definition": "A poker variant where the lowest hand wins instead of the highest.",
+    "category": "Game Structure & Variants",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 18,
+    "word": "Kicker",
+    "definition": "The highest card not part of your main hand, used to break ties between identical hands.",
+    "category": "Hand Terminology",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 19,
+    "word": "Wild Card",
+    "definition": "A card that can represent any other card to complete a hand.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 20,
+    "word": "Burn Card",
+    "definition": "A card discarded from the top of the deck before dealing community cards to prevent cheating.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 21,
+    "word": "Up Card",
+    "definition": "A card dealt face-up that all players can see.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "word": "Down Card",
+    "definition": "A card dealt face-down that only the player receiving it can see.",
+    "category": "Card Types",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "word": "Trips",
+    "definition": "Three of a kind; three cards of the same rank.",
+    "category": "Hand Terminology",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "word": "Boat",
+    "definition": "Slang term for a full house (three of a kind plus a pair).",
+    "category": "Hand Terminology",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 25,
+    "word": "Nuts",
+    "definition": "The best possible hand given the current board cards.",
+    "category": "Hand Terminology",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 26,
+    "word": "Hi-Lo Split",
+    "definition": "A poker variant where the pot is divided between the highest and lowest hands.",
+    "category": "Game Structure & Variants",
+    "created_at": "2023-01-01T00:00:00.000Z",
+    "updated_at": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 27,
+    "word": "Qualify",
+    "definition": "Meeting minimum hand requirements to win part of the pot (e.g., 'eight or better' for low hands).",
+    "category": "Game Structure & Variants",
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   }
