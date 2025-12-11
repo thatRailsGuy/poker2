@@ -7,27 +7,89 @@ pagination:
 permalink: /games/{{ game.id }}/
 ---
 
-<h1>{{ game.name }}</h1>
+<h1 class="mb-4">{{ game.name }}</h1>
 
-<div class="card mb-3">
-  <div class="card-body">
-    <h5 class="card-title">Description</h5>
-    <div class="card-text">
-      {{ game.description | markdown(games) | safe }}
+<div class="row">
+  <div class="col-lg-8">
+    <div class="card mb-4">
+      <div class="card-body">
+        <h2 class="h5 card-title mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16" style="vertical-align: -3px; margin-right: 8px;" aria-hidden="true">
+            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+          </svg>
+          How to Play
+        </h2>
+        <div class="card-text game-description">
+          {{ game.description | markdown(games) | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card mb-4 game-info-card">
+      <div class="card-header">
+        <h2 class="h5 mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16" style="vertical-align: -3px; margin-right: 8px;" aria-hidden="true">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+          Game Details
+        </h2>
+      </div>
+      <div class="card-body">
+        <div class="game-stat-item mb-3">
+          <div class="game-stat-label">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16" style="vertical-align: -2px; margin-right: 4px;" aria-hidden="true">
+              <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2z"/>
+            </svg>
+            Style
+          </div>
+          <div class="game-stat-value">
+            <a href="{{ ('/styles/' + game.style_id + '/') | url }}" class="text-decoration-none">
+              {{ styles | getStyleById(game.style_id) }}
+            </a>
+          </div>
+        </div>
+
+        <div class="game-stat-item mb-3">
+          <div class="game-stat-label">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16" style="vertical-align: -2px; margin-right: 4px;" aria-hidden="true">
+              <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+            </svg>
+            Players
+          </div>
+          <div class="game-stat-value">{{ game.min_players }}–{{ game.max_players }}</div>
+        </div>
+
+        <div class="game-stat-item mb-3">
+          <div class="game-stat-label">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16" style="vertical-align: -2px; margin-right: 4px;" aria-hidden="true">
+              <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
+              <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
+            </svg>
+            Cards Dealt
+          </div>
+          <div class="game-stat-value">{{ game.num_cards }}</div>
+        </div>
+
+        {% if game.tags and game.tags.length > 0 %}
+        <div class="game-stat-item">
+          <div class="game-stat-label mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16" style="vertical-align: -2px; margin-right: 4px;" aria-hidden="true">
+              <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+              <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+            </svg>
+            Tags
+          </div>
+          <div class="d-flex flex-wrap gap-2">
+            {% for tag in game.tags %}
+              {{ tag | clickableTag | safe }}
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
-
-<p><strong>Style:</strong> {{ styles | getStyleById(game.style_id) }}</p>
-<p><strong>Min players:</strong> {{ game.min_players }}</p>
-<p><strong>Max players:</strong> {{ game.max_players }}</p>
-<p><strong>Num cards:</strong> {{ game.num_cards }}</p>
-
-{% if game.tags and game.tags.length > 0 %}
-<p>
-  <strong>Tags:</strong>
-  {% for tag in game.tags %}
-    {{ tag | clickableTag | safe }}
-  {% endfor %}
-  </p>
-{% endif %}

@@ -66,9 +66,16 @@ footer {
 }
 
 /* Navigation */
+.navbar {
+  border-bottom: 2px solid #495057;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 /* Alert styling */
@@ -243,4 +250,59 @@ textarea:focus,
   background-color: #5dd365;
   border-color: #5dd365;
   color: #000;
+}
+
+/* Game detail page styling */
+.game-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.game-description h2,
+.game-description h3 {
+  color: #cbd5e0;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.game-description ol,
+.game-description ul {
+  margin-bottom: 1rem;
+}
+
+.game-description li {
+  margin-bottom: 0.5rem;
+}
+
+.game-info-card .card-header {
+  background-color: #2b3035;
+  border-bottom: 2px solid #495057;
+}
+
+.game-stat-item {
+  padding: 0.75rem;
+  border-left: 3px solid #6ea8fe;
+  background-color: rgba(110, 168, 254, 0.05);
+  border-radius: 4px;
+}
+
+.game-stat-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #adb5bd;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.game-stat-value {
+  font-size: 1.1rem;
+  color: #dee2e6;
+  font-weight: 500;
+}
+
+.game-actions-card {
+  position: sticky;
+  top: 80px;
 }
