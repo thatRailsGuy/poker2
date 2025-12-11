@@ -2,6 +2,8 @@
 
 A comprehensive repository of poker and card game variants, converted from a Rails application to a static site built with [Eleventy](https://www.11ty.dev/).
 
+**🌐 Live Site:** [https://thatrailsguy.github.io/poker2/](https://thatrailsguy.github.io/poker2/)
+
 ## 🎯 About
 
 This project is a static site generator version of the [original Rails Poker app](https://github.com/thatRailsGuy/poker). It provides a browsable catalog of poker games, playing styles, and poker terminology definitions.
@@ -231,3 +233,5 @@ Contributions are welcome! Feel free to:
 ---
 
 Built with ❤️ using [Eleventy](https://www.11ty.dev/)
+
+This project was developed with assistance from AI (Claude by Anthropic).
