@@ -79,7 +79,7 @@ module.exports = function(eleventyConfig) {
 
   // Custom filter for clickable tags
   eleventyConfig.addFilter('clickableTag', (tag) => {
-    return `<a href="/games/?tag=${encodeURIComponent(tag)}" class="badge badge-primary">${tag}</a>`;
+    return `<a href="${pathPrefix}/games/?tag=${encodeURIComponent(tag)}" class="badge badge-primary">${tag}</a>`;
   });
 
   // Custom filter for array includes check
