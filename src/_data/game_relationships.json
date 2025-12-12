@@ -1,0 +1,582 @@
+[
+  {
+    "from": "2-7 Triple Draw",
+    "to": "2-7 Single Draw",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "44",
+    "to": "Iron Cross",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "6.5-21",
+    "to": "7-27",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Al's Game",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Badugi",
+    "to": "2-7 Triple Draw",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Baseball",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Best Flush",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Bid Poker",
+    "to": "Cinncinnati",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Blood and Guts",
+    "to": "Guts",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Bourre",
+    "to": "Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Bourre",
+    "to": "Pitch",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Clint's Game",
+    "to": "Trees",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Clint's Game",
+    "to": "Trees",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Cow Pies",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Crazy Pineapple",
+    "to": "Irish Poker",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Crazy Pineapple",
+    "to": "Pineapple",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Crazy Pineapple",
+    "to": "Texas Hold'em",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Criss-Cross",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Double Lowball",
+    "to": "Razz",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Elbows",
+    "to": "Criss-Cross",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Aces or You're an Asshole",
+    "to": "Cinncinnati",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Baseball",
+    "to": "Baseball",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Draw - High/Low Split",
+    "to": "Five Card Draw",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Draw - Jacks or Back",
+    "to": "Five Card Draw - Jacks or Better",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Draw - Jacks to Open, Trips to win",
+    "to": "Five Card Draw - Jacks or Better",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Draw - Lowball",
+    "to": "Five Card Draw",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Draw - Roll Cards",
+    "to": "Five Card Draw",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Stud - Aces or Better to Win",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Stud - High Chicago",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Stud - Low Chicago",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Stud - Lowball",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Stud - Lowball with Replacement",
+    "to": "Five Card Stud - Lowball",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Five Card Stud - Power",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Good vs. Evil",
+    "to": "Cinncinnati",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Heartbreak",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "High Tide / Low Tide",
+    "to": "Hurricane",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "High Tide / Low Tide",
+    "to": "Spit in the Ocean",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "In-Between",
+    "to": "Acey Deucey",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Irish Poker",
+    "to": "Crazy Pineapple",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Irish Poker",
+    "to": "Omaha",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Irish Poker",
+    "to": "Omaha",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Irish Poker",
+    "to": "Pineapple",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Irish Poker",
+    "to": "Texas Hold'em",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Iron Cross",
+    "to": "Cinncinnati",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Iron Cross",
+    "to": "Criss-Cross",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Iron Cross",
+    "to": "Spit in the Ocean",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Lamebrain Pete",
+    "to": "Cinncinnati",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Limbo",
+    "to": "No-peek",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Mexican Stud",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Mexican Stud",
+    "to": "Seven Card Stud",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Midnight Baseball",
+    "to": "Baseball",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Mississippi Stud",
+    "to": "Texas Hold'em",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Murder",
+    "to": "357",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Murder",
+    "to": "Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Omaha",
+    "to": "Texas Hold'em",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Omaha High / Low",
+    "to": "Omaha",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Pineapple",
+    "to": "Crazy Pineapple",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Pineapple",
+    "to": "Irish Poker",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Pineapple",
+    "to": "Texas Hold'em",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Pitch",
+    "to": "Bourre",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Push",
+    "to": "Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Push",
+    "to": "No-peek",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Ralph",
+    "to": "Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Ralph",
+    "to": "Schneiders",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Razz",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Rexticles",
+    "to": "The Good, the Bad, and The Ugly",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Schneiders",
+    "to": "Iron Cross",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Screwy Louie",
+    "to": "Baseball",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Screwy Louie",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Screwy Louie",
+    "to": "Seven Card Stud - Low in the Hole is Wild",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Seven Card Stud - Follow the Queen",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Seven Card Stud - High Chicago",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Seven Card Stud - Low Chicago",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Seven Card Stud - Low in the Hole is Wild",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Seven Card Stud - Power",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Shit on your neighbor",
+    "to": "Piles (Pass the trash)",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Shotgun",
+    "to": "Five Card Draw",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Stud-Jack",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "The Good, the Bad, and The Ugly",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Three Card Substitution",
+    "to": "Five Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Trees",
+    "to": "Anaconda",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Turkey",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Two-Thirds",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Use and Lose",
+    "to": "Good vs. Evil",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Utah",
+    "to": "Cinncinnati",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "Zero",
+    "to": "7-27",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "2-7 Single Draw",
+    "to": "Razz",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "2-7 Single Draw",
+    "to": "Badugi",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "2-7 Triple Draw",
+    "to": "Razz",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Badugi",
+    "to": "Razz",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Hurricane",
+    "to": "Five Card Draw",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "New Hampshire Lowdown",
+    "to": "Razz",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "New Hampshire Lowdown",
+    "to": "Al's Game",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Double Lowball",
+    "to": "Seven Card Stud",
+    "relationship": "variant_of"
+  },
+  {
+    "from": "357",
+    "to": "Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "In-Between",
+    "to": "Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Murder",
+    "to": "Blood and Guts",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "6.5-21",
+    "to": "Zero",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Omaha",
+    "to": "Pineapple",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Omaha High / Low",
+    "to": "Pineapple",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Mississippi Stud",
+    "to": "Omaha",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Cinncinnati",
+    "to": "Iron Cross",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Cinncinnati",
+    "to": "Criss-Cross",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Cinncinnati",
+    "to": "44",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Good vs. Evil",
+    "to": "Iron Cross",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Use and Lose",
+    "to": "Cinncinnati",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Utah",
+    "to": "Lamebrain Pete",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Limbo",
+    "to": "Midnight Baseball",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Midnight Baseball",
+    "to": "No-peek",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Push",
+    "to": "Limbo",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Mexican Stud",
+    "to": "Al's Game",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Screwy Louie",
+    "to": "Al's Game",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Screwy Louie",
+    "to": "New Hampshire Lowdown",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Anaconda",
+    "to": "Piles (Pass the trash)",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Trees",
+    "to": "Piles (Pass the trash)",
+    "relationship": "similar_to"
+  },
+  {
+    "from": "Clint's Game",
+    "to": "Anaconda",
+    "relationship": "similar_to"
+  }
+]

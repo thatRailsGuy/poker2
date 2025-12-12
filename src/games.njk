@@ -37,7 +37,7 @@ permalink: /games/
   </thead>
   <tbody>
     {% for game in games | sortBy('name') %}
-    <tr>
+    <tr data-aliases="{{ game.aliases | join(', ') | lower }}">
       <td><a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a></td>
       <td>{{ styles | getStyleById(game.style_id) }}</td>
       <td>{{ game.min_players }}</td>

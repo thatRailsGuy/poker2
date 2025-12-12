@@ -8,10 +8,16 @@
     "max_players": 8,
     "num_cards": 5,
     "tags": [
+      "lowball",
+      "draw-cards",
       ""
     ],
     "created_at": "2013-09-02T10:09:06.466Z",
-    "updated_at": "2013-09-02T10:09:06.466Z"
+    "updated_at": "2013-09-02T10:09:06.466Z",
+    "aliases": [
+      "Kansas City Lowball",
+      "Deuce to Seven"
+    ]
   },
   {
     "id": 13,
@@ -22,10 +28,15 @@
     "max_players": 8,
     "num_cards": 5,
     "tags": [
+      "lowball",
+      "draw-cards",
       ""
     ],
     "created_at": "2013-09-02T10:10:10.121Z",
-    "updated_at": "2013-09-02T10:10:10.121Z"
+    "updated_at": "2013-09-02T10:10:10.121Z",
+    "aliases": [
+      "Deuce to Seven Triple Draw"
+    ]
   },
   {
     "id": 62,
@@ -39,8 +50,11 @@
       "wildcard",
       "pot-matching",
       "dickish",
+      "declare",
+      "progressive",
       ""
     ],
+    "aliases": [],
     "created_at": "2013-09-03T06:14:20.630Z",
     "updated_at": "2013-09-03T07:01:30.816Z"
   },
@@ -57,7 +71,8 @@
       ""
     ],
     "created_at": "2013-09-03T07:58:26.755Z",
-    "updated_at": "2013-09-03T07:58:26.755Z"
+    "updated_at": "2013-09-03T07:58:26.755Z",
+    "aliases": []
   },
   {
     "id": 71,
@@ -71,7 +86,8 @@
       ""
     ],
     "created_at": "2013-09-03T08:01:11.353Z",
-    "updated_at": "2013-09-03T08:01:11.353Z"
+    "updated_at": "2013-09-03T08:01:11.353Z",
+    "aliases": []
   },
   {
     "id": 56,
@@ -85,7 +101,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:55:00.667Z",
-    "updated_at": "2013-09-03T05:55:00.667Z"
+    "updated_at": "2013-09-03T05:55:00.667Z",
+    "aliases": []
   },
   {
     "id": 63,
@@ -99,7 +116,11 @@
       ""
     ],
     "created_at": "2013-09-03T07:19:58.529Z",
-    "updated_at": "2013-09-03T07:19:58.529Z"
+    "updated_at": "2013-09-03T07:19:58.529Z",
+    "aliases": [
+      "Red Dog",
+      "Between the Sheets"
+    ]
   },
   {
     "id": 18,
@@ -111,10 +132,12 @@
     "num_cards": 5,
     "tags": [
       "wildcard",
+      "personal-wild",
       ""
     ],
     "created_at": "2013-09-02T22:52:31.069Z",
-    "updated_at": "2013-09-02T22:52:31.069Z"
+    "updated_at": "2013-09-02T22:52:31.069Z",
+    "aliases": []
   },
   {
     "id": 55,
@@ -127,10 +150,13 @@
     "tags": [
       "dickish",
       "hi-lo",
+      "roll-em",
+      "declare",
       ""
     ],
     "created_at": "2013-09-03T05:36:56.140Z",
-    "updated_at": "2013-09-03T05:37:12.368Z"
+    "updated_at": "2013-09-03T05:37:12.368Z",
+    "aliases": []
   },
   {
     "id": 14,
@@ -141,10 +167,13 @@
     "max_players": 8,
     "num_cards": 4,
     "tags": [
+      "lowball",
+      "draw-cards",
       ""
     ],
     "created_at": "2013-09-02T10:14:52.433Z",
-    "updated_at": "2013-09-02T10:14:52.433Z"
+    "updated_at": "2013-09-02T10:14:52.433Z",
+    "aliases": []
   },
   {
     "id": 40,
@@ -159,7 +188,8 @@
       ""
     ],
     "created_at": "2013-09-03T04:06:57.439Z",
-    "updated_at": "2013-09-03T04:06:57.439Z"
+    "updated_at": "2013-09-03T04:06:57.439Z",
+    "aliases": []
   },
   {
     "id": 21,
@@ -173,7 +203,8 @@
       ""
     ],
     "created_at": "2013-09-02T23:34:49.352Z",
-    "updated_at": "2013-09-02T23:34:49.352Z"
+    "updated_at": "2013-09-02T23:34:49.352Z",
+    "aliases": []
   },
   {
     "id": 65,
@@ -189,7 +220,8 @@
       ""
     ],
     "created_at": "2013-09-03T07:39:34.372Z",
-    "updated_at": "2013-09-03T07:39:34.372Z"
+    "updated_at": "2013-09-03T07:39:34.372Z",
+    "aliases": []
   },
   {
     "id": 59,
@@ -202,14 +234,16 @@
     "tags": [
       "pot-matching",
       "dickish",
+      "declare",
       ""
     ],
     "created_at": "2013-09-03T06:00:59.666Z",
-    "updated_at": "2013-09-03T06:00:59.666Z"
+    "updated_at": "2013-09-03T06:00:59.666Z",
+    "aliases": []
   },
   {
     "id": 48,
-    "name": "Cinncinnati",
+    "name": "Cincinnati",
     "description": "1. Five cards down to each player, five cards down to community.\r\n2. Round of betting\r\n3. Reveal on card at a time followed by a round of betting, until all cards are revealed\r\n\r\nBest five card hand wins using all ten cards",
     "style_id": 3,
     "min_players": 2,
@@ -219,12 +253,15 @@
       ""
     ],
     "created_at": "2013-09-03T05:11:59.580Z",
-    "updated_at": "2013-09-03T05:11:59.580Z"
+    "updated_at": "2013-09-03T05:11:59.580Z",
+    "aliases": [
+      "Cincinnati Liz"
+    ]
   },
   {
     "id": 69,
     "name": "Clint's Game",
-    "description": "Same as [game:Trees], but pot is split between high hand and best badugi hand",
+    "description": "Same as [game:Trees], but pot is split between high hand and best [game:badugi] hand",
     "style_id": 4,
     "min_players": 2,
     "max_players": 10,
@@ -233,7 +270,8 @@
       ""
     ],
     "created_at": "2013-09-03T07:56:21.269Z",
-    "updated_at": "2013-09-03T07:56:21.269Z"
+    "updated_at": "2013-09-03T07:56:21.269Z",
+    "aliases": []
   },
   {
     "id": 42,
@@ -247,7 +285,8 @@
       ""
     ],
     "created_at": "2013-09-03T04:40:18.373Z",
-    "updated_at": "2013-09-03T04:40:18.373Z"
+    "updated_at": "2013-09-03T04:40:18.373Z",
+    "aliases": []
   },
   {
     "id": 46,
@@ -261,7 +300,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:09:09.446Z",
-    "updated_at": "2013-09-03T05:09:09.446Z"
+    "updated_at": "2013-09-03T05:09:09.446Z",
+    "aliases": []
   },
   {
     "id": 67,
@@ -275,7 +315,8 @@
       ""
     ],
     "created_at": "2013-09-03T07:50:43.092Z",
-    "updated_at": "2013-09-03T07:52:52.591Z"
+    "updated_at": "2013-09-03T07:52:52.591Z",
+    "aliases": []
   },
   {
     "id": 47,
@@ -289,7 +330,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:10:26.048Z",
-    "updated_at": "2013-09-03T05:10:26.048Z"
+    "updated_at": "2013-09-03T05:10:26.048Z",
+    "aliases": []
   },
   {
     "id": 51,
@@ -304,7 +346,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:16:18.503Z",
-    "updated_at": "2013-09-03T05:16:18.503Z"
+    "updated_at": "2013-09-03T05:16:18.503Z",
+    "aliases": []
   },
   {
     "id": 20,
@@ -319,7 +362,8 @@
       ""
     ],
     "created_at": "2013-09-02T23:09:56.070Z",
-    "updated_at": "2013-09-02T23:09:56.070Z"
+    "updated_at": "2013-09-02T23:09:56.070Z",
+    "aliases": []
   },
   {
     "id": 1,
@@ -333,7 +377,8 @@
       ""
     ],
     "created_at": "2013-09-02T09:45:02.791Z",
-    "updated_at": "2013-09-02T09:45:02.791Z"
+    "updated_at": "2013-09-02T09:45:02.791Z",
+    "aliases": []
   },
   {
     "id": 3,
@@ -348,7 +393,8 @@
       ""
     ],
     "created_at": "2013-09-02T09:48:00.709Z",
-    "updated_at": "2013-09-02T09:48:00.709Z"
+    "updated_at": "2013-09-02T09:48:00.709Z",
+    "aliases": []
   },
   {
     "id": 7,
@@ -362,7 +408,8 @@
       ""
     ],
     "created_at": "2013-09-02T09:58:17.109Z",
-    "updated_at": "2013-09-02T09:58:17.109Z"
+    "updated_at": "2013-09-02T09:58:17.109Z",
+    "aliases": []
   },
   {
     "id": 6,
@@ -376,7 +423,10 @@
       ""
     ],
     "created_at": "2013-09-02T09:56:07.633Z",
-    "updated_at": "2013-09-02T09:56:07.633Z"
+    "updated_at": "2013-09-02T09:56:07.633Z",
+    "aliases": [
+      "Jackpots"
+    ]
   },
   {
     "id": 8,
@@ -390,7 +440,8 @@
       ""
     ],
     "created_at": "2013-09-02T10:00:02.372Z",
-    "updated_at": "2013-09-02T10:00:02.372Z"
+    "updated_at": "2013-09-02T10:00:02.372Z",
+    "aliases": []
   },
   {
     "id": 2,
@@ -404,7 +455,11 @@
       ""
     ],
     "created_at": "2013-09-02T09:46:33.204Z",
-    "updated_at": "2013-09-02T09:46:33.204Z"
+    "updated_at": "2013-09-02T09:46:33.204Z",
+    "aliases": [
+      "California Lowball",
+      "Lowball"
+    ]
   },
   {
     "id": 5,
@@ -418,7 +473,8 @@
       ""
     ],
     "created_at": "2013-09-02T09:52:32.655Z",
-    "updated_at": "2013-09-02T09:52:32.655Z"
+    "updated_at": "2013-09-02T09:52:32.655Z",
+    "aliases": []
   },
   {
     "id": 15,
@@ -432,7 +488,8 @@
       ""
     ],
     "created_at": "2013-09-02T22:31:06.197Z",
-    "updated_at": "2013-09-02T22:31:06.197Z"
+    "updated_at": "2013-09-02T22:31:06.197Z",
+    "aliases": []
   },
   {
     "id": 17,
@@ -446,7 +503,8 @@
       ""
     ],
     "created_at": "2013-09-02T22:42:34.022Z",
-    "updated_at": "2013-09-02T22:42:34.022Z"
+    "updated_at": "2013-09-02T22:42:34.022Z",
+    "aliases": []
   },
   {
     "id": 30,
@@ -460,7 +518,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:31:41.312Z",
-    "updated_at": "2013-09-03T01:31:41.312Z"
+    "updated_at": "2013-09-03T01:31:41.312Z",
+    "aliases": []
   },
   {
     "id": 16,
@@ -474,7 +533,8 @@
       ""
     ],
     "created_at": "2013-09-02T22:36:13.123Z",
-    "updated_at": "2013-09-02T22:36:13.123Z"
+    "updated_at": "2013-09-02T22:36:13.123Z",
+    "aliases": []
   },
   {
     "id": 19,
@@ -488,7 +548,8 @@
       ""
     ],
     "created_at": "2013-09-02T22:58:07.268Z",
-    "updated_at": "2013-09-02T22:58:07.268Z"
+    "updated_at": "2013-09-02T22:58:07.268Z",
+    "aliases": []
   },
   {
     "id": 31,
@@ -502,7 +563,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:32:25.406Z",
-    "updated_at": "2013-09-03T01:32:25.406Z"
+    "updated_at": "2013-09-03T01:32:25.406Z",
+    "aliases": []
   },
   {
     "id": 27,
@@ -516,7 +578,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:22:45.947Z",
-    "updated_at": "2013-09-03T01:22:45.947Z"
+    "updated_at": "2013-09-03T01:22:45.947Z",
+    "aliases": []
   },
   {
     "id": 52,
@@ -530,7 +593,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:21:39.290Z",
-    "updated_at": "2013-09-03T05:27:23.256Z"
+    "updated_at": "2013-09-03T05:27:23.256Z",
+    "aliases": []
   },
   {
     "id": 58,
@@ -546,7 +610,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:59:16.655Z",
-    "updated_at": "2013-09-03T06:00:02.568Z"
+    "updated_at": "2013-09-03T06:00:02.568Z",
+    "aliases": []
   },
   {
     "id": 35,
@@ -560,7 +625,8 @@
       ""
     ],
     "created_at": "2013-09-03T02:59:06.010Z",
-    "updated_at": "2013-09-03T02:59:06.010Z"
+    "updated_at": "2013-09-03T02:59:06.010Z",
+    "aliases": []
   },
   {
     "id": 10,
@@ -576,7 +642,8 @@
       ""
     ],
     "created_at": "2013-09-02T10:04:26.127Z",
-    "updated_at": "2013-09-02T10:05:26.219Z"
+    "updated_at": "2013-09-02T10:05:26.219Z",
+    "aliases": []
   },
   {
     "id": 11,
@@ -590,7 +657,8 @@
       ""
     ],
     "created_at": "2013-09-02T10:07:16.565Z",
-    "updated_at": "2013-09-02T10:07:16.565Z"
+    "updated_at": "2013-09-02T10:07:16.565Z",
+    "aliases": []
   },
   {
     "id": 50,
@@ -605,7 +673,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:13:28.153Z",
-    "updated_at": "2013-09-03T05:13:28.153Z"
+    "updated_at": "2013-09-03T05:13:28.153Z",
+    "aliases": []
   },
   {
     "id": 64,
@@ -616,10 +685,12 @@
     "max_players": 7,
     "num_cards": 6,
     "tags": [
+      "no-peek",
       ""
     ],
     "created_at": "2013-09-03T07:23:25.952Z",
-    "updated_at": "2013-09-03T07:23:25.952Z"
+    "updated_at": "2013-09-03T07:23:25.952Z",
+    "aliases": []
   },
   {
     "id": 39,
@@ -631,10 +702,12 @@
     "num_cards": 7,
     "tags": [
       "wildcard",
+      "no-peek",
       ""
     ],
     "created_at": "2013-09-03T04:05:26.092Z",
-    "updated_at": "2013-09-03T04:05:26.092Z"
+    "updated_at": "2013-09-03T04:05:26.092Z",
+    "aliases": []
   },
   {
     "id": 73,
@@ -648,7 +721,8 @@
       ""
     ],
     "created_at": "2013-09-03T08:13:54.716Z",
-    "updated_at": "2013-09-03T08:13:54.716Z"
+    "updated_at": "2013-09-03T08:13:54.716Z",
+    "aliases": []
   },
   {
     "id": 72,
@@ -663,7 +737,8 @@
       ""
     ],
     "created_at": "2013-09-03T08:08:59.534Z",
-    "updated_at": "2013-09-03T08:08:59.534Z"
+    "updated_at": "2013-09-03T08:08:59.534Z",
+    "aliases": []
   },
   {
     "id": 38,
@@ -674,10 +749,12 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
+      "no-peek",
       ""
     ],
     "created_at": "2013-09-03T04:04:02.309Z",
-    "updated_at": "2013-09-03T04:04:18.373Z"
+    "updated_at": "2013-09-03T04:04:18.373Z",
+    "aliases": []
   },
   {
     "id": 44,
@@ -688,10 +765,14 @@
     "max_players": 11,
     "num_cards": 4,
     "tags": [
+      "community-card",
       ""
     ],
     "created_at": "2013-09-03T05:03:38.168Z",
-    "updated_at": "2013-09-03T05:03:38.168Z"
+    "updated_at": "2013-09-03T05:03:38.168Z",
+    "aliases": [
+      "Omaha Hold'em"
+    ]
   },
   {
     "id": 45,
@@ -703,10 +784,18 @@
     "num_cards": 4,
     "tags": [
       "hi-lo",
+      "community-card",
+      "qualifier",
+      "lowball",
       ""
     ],
     "created_at": "2013-09-03T05:05:41.777Z",
-    "updated_at": "2013-09-03T05:05:41.777Z"
+    "updated_at": "2013-09-03T05:05:41.777Z",
+    "aliases": [
+      "Omaha Hi-Lo",
+      "Omaha Eight or Better",
+      "Omaha 8"
+    ]
   },
   {
     "id": 60,
@@ -721,7 +810,11 @@
       ""
     ],
     "created_at": "2013-09-03T06:05:28.317Z",
-    "updated_at": "2013-09-03T06:05:32.631Z"
+    "updated_at": "2013-09-03T06:05:32.631Z",
+    "aliases": [
+      "Pass the Trash",
+      "Screw Your Neighbor"
+    ]
   },
   {
     "id": 66,
@@ -737,7 +830,8 @@
       ""
     ],
     "created_at": "2013-09-03T07:46:03.744Z",
-    "updated_at": "2013-09-03T07:47:31.885Z"
+    "updated_at": "2013-09-03T07:47:31.885Z",
+    "aliases": []
   },
   {
     "id": 24,
@@ -751,7 +845,10 @@
       ""
     ],
     "created_at": "2013-09-03T00:45:28.237Z",
-    "updated_at": "2013-09-03T00:45:28.237Z"
+    "updated_at": "2013-09-03T00:45:28.237Z",
+    "aliases": [
+      "Seven Card Stud Lowball"
+    ]
   },
   {
     "id": 34,
@@ -766,7 +863,8 @@
       ""
     ],
     "created_at": "2013-09-03T02:57:20.395Z",
-    "updated_at": "2013-09-03T02:57:20.395Z"
+    "updated_at": "2013-09-03T02:57:20.395Z",
+    "aliases": []
   },
   {
     "id": 54,
@@ -783,7 +881,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:32:01.009Z",
-    "updated_at": "2013-09-03T05:34:02.407Z"
+    "updated_at": "2013-09-03T05:34:02.407Z",
+    "aliases": []
   },
   {
     "id": 23,
@@ -797,7 +896,8 @@
       ""
     ],
     "created_at": "2013-09-03T00:34:54.256Z",
-    "updated_at": "2013-09-03T00:34:54.256Z"
+    "updated_at": "2013-09-03T00:34:54.256Z",
+    "aliases": []
   },
   {
     "id": 32,
@@ -812,7 +912,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:42:44.794Z",
-    "updated_at": "2013-09-03T01:42:44.794Z"
+    "updated_at": "2013-09-03T01:42:44.794Z",
+    "aliases": []
   },
   {
     "id": 28,
@@ -826,7 +927,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:30:17.342Z",
-    "updated_at": "2013-09-03T01:30:17.342Z"
+    "updated_at": "2013-09-03T01:30:17.342Z",
+    "aliases": []
   },
   {
     "id": 29,
@@ -840,7 +942,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:30:44.588Z",
-    "updated_at": "2013-09-03T01:30:44.588Z"
+    "updated_at": "2013-09-03T01:30:44.588Z",
+    "aliases": []
   },
   {
     "id": 25,
@@ -855,7 +958,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:02:47.000Z",
-    "updated_at": "2013-09-03T01:02:47.000Z"
+    "updated_at": "2013-09-03T01:02:47.000Z",
+    "aliases": []
   },
   {
     "id": 26,
@@ -869,7 +973,8 @@
       ""
     ],
     "created_at": "2013-09-03T01:14:10.998Z",
-    "updated_at": "2013-09-03T01:14:10.998Z"
+    "updated_at": "2013-09-03T01:14:10.998Z",
+    "aliases": []
   },
   {
     "id": 61,
@@ -884,7 +989,8 @@
       ""
     ],
     "created_at": "2013-09-03T06:06:28.893Z",
-    "updated_at": "2013-09-03T06:06:50.662Z"
+    "updated_at": "2013-09-03T06:06:50.662Z",
+    "aliases": []
   },
   {
     "id": 4,
@@ -898,7 +1004,8 @@
       ""
     ],
     "created_at": "2013-09-02T09:49:27.343Z",
-    "updated_at": "2013-09-02T09:49:27.343Z"
+    "updated_at": "2013-09-02T09:49:27.343Z",
+    "aliases": []
   },
   {
     "id": 9,
@@ -913,7 +1020,8 @@
       ""
     ],
     "created_at": "2013-09-02T10:03:20.297Z",
-    "updated_at": "2013-09-02T10:03:20.297Z"
+    "updated_at": "2013-09-02T10:03:20.297Z",
+    "aliases": []
   },
   {
     "id": 36,
@@ -927,7 +1035,8 @@
       ""
     ],
     "created_at": "2013-09-03T03:01:02.405Z",
-    "updated_at": "2013-09-03T03:01:02.405Z"
+    "updated_at": "2013-09-03T03:01:02.405Z",
+    "aliases": []
   },
   {
     "id": 43,
@@ -938,10 +1047,15 @@
     "max_players": 22,
     "num_cards": 2,
     "tags": [
+      "community-card",
       ""
     ],
     "created_at": "2013-09-03T05:02:22.720Z",
-    "updated_at": "2013-09-03T05:02:22.720Z"
+    "updated_at": "2013-09-03T05:02:22.720Z",
+    "aliases": [
+      "Hold'em",
+      "Texas"
+    ]
   },
   {
     "id": 33,
@@ -956,7 +1070,8 @@
       ""
     ],
     "created_at": "2013-09-03T02:03:35.091Z",
-    "updated_at": "2013-09-03T02:58:01.691Z"
+    "updated_at": "2013-09-03T02:58:01.691Z",
+    "aliases": []
   },
   {
     "id": 22,
@@ -970,7 +1085,8 @@
       ""
     ],
     "created_at": "2013-09-03T00:00:23.220Z",
-    "updated_at": "2013-09-03T00:00:23.220Z"
+    "updated_at": "2013-09-03T00:00:23.220Z",
+    "aliases": []
   },
   {
     "id": 68,
@@ -985,7 +1101,8 @@
       ""
     ],
     "created_at": "2013-09-03T07:55:11.015Z",
-    "updated_at": "2013-09-03T07:55:11.015Z"
+    "updated_at": "2013-09-03T07:55:11.015Z",
+    "aliases": []
   },
   {
     "id": 41,
@@ -1000,7 +1117,8 @@
       ""
     ],
     "created_at": "2013-09-03T04:39:11.374Z",
-    "updated_at": "2013-09-03T04:39:11.374Z"
+    "updated_at": "2013-09-03T04:39:11.374Z",
+    "aliases": []
   },
   {
     "id": 37,
@@ -1014,7 +1132,8 @@
       ""
     ],
     "created_at": "2013-09-03T04:00:46.529Z",
-    "updated_at": "2013-09-03T04:00:46.529Z"
+    "updated_at": "2013-09-03T04:00:46.529Z",
+    "aliases": []
   },
   {
     "id": 53,
@@ -1028,7 +1147,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:26:51.367Z",
-    "updated_at": "2013-09-03T05:26:51.367Z"
+    "updated_at": "2013-09-03T05:26:51.367Z",
+    "aliases": []
   },
   {
     "id": 49,
@@ -1043,7 +1163,8 @@
       ""
     ],
     "created_at": "2013-09-03T05:12:43.500Z",
-    "updated_at": "2013-09-03T05:12:43.500Z"
+    "updated_at": "2013-09-03T05:12:43.500Z",
+    "aliases": []
   },
   {
     "id": 57,
@@ -1057,6 +1178,199 @@
       ""
     ],
     "created_at": "2013-09-03T05:56:52.155Z",
-    "updated_at": "2013-09-03T05:56:52.155Z"
+    "updated_at": "2013-09-03T05:56:52.155Z",
+    "aliases": []
+  },
+  {
+    "id": 74,
+    "name": "Pineapple",
+    "description": "Variant of [game:Texas Hold'em] with one extra starting card.\r\n\r\n* Each player is dealt three hole cards\r\n* Players must discard one card before the flop\r\n* Flop is dealt (3 community cards)\r\n* Round of betting\r\n* Turn is dealt (1 community card)\r\n* Round of betting\r\n* River is dealt (1 community card)\r\n* Final round of betting\r\n\r\nPlayers make their best five-card hand using their remaining two hole cards and the five community cards.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 3,
+    "tags": [
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 75,
+    "name": "Crazy Pineapple",
+    "description": "Variant of [game:Pineapple] where the discard happens after seeing the flop instead of before.\r\n\r\n* Each player is dealt three hole cards\r\n* Flop is dealt (3 community cards)\r\n* Round of betting\r\n* Players must discard one card after the flop\r\n* Turn is dealt (1 community card)\r\n* Round of betting\r\n* River is dealt (1 community card)\r\n* Final round of betting\r\n\r\nPlayers make their best five-card hand using their remaining two hole cards and the five community cards. Discarding after the flop adds more strategic decision-making than regular Pineapple.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 3,
+    "tags": [
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 76,
+    "name": "Irish Poker",
+    "description": "Hybrid between [game:Omaha] and [game:Texas Hold'em]. Starts like Omaha but ends like Hold'em.\r\n\r\n* Each player is dealt four hole cards\r\n* Flop is dealt (3 community cards)\r\n* Round of betting\r\n* Players must discard two cards after the flop\r\n* Turn is dealt (1 community card)\r\n* Round of betting\r\n* River is dealt (1 community card)\r\n* Final round of betting\r\n\r\nPlayers make their best five-card hand using their remaining two hole cards and the five community cards. The discard decision after seeing the flop is crucial.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 4,
+    "tags": [
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 77,
+    "name": "Mexican Stud",
+    "description": "Variant of [game:Five Card Stud] where players control which cards are exposed.\r\n\r\n* Each player is dealt two cards face down\r\n* Players look at their cards and choose one to flip face up\r\n* Round of betting\r\n* Deal one card face down to each player\r\n* Players choose one of their down cards to flip face up\r\n* Round of betting\r\n* Continue dealing cards face down with players choosing which to flip until each player has 5 cards\r\n* Final round of betting\r\n\r\nAlso known as Flip or Peep. Players always have control over which cards are exposed, adding a layer of deception not present in standard stud games.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": [
+      "Flip",
+      "Peep"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Iron Cross",
+    "description": "Community card game similar to [game:Cinncinnati] and [game:Criss-Cross] but with unique layout and usage rules.\r\n\r\n* Each player is dealt five hole cards face down\r\n* Deal five community cards in a cross/plus pattern (one center, four on edges) face down\r\n* Flip the center community card\r\n* Round of betting\r\n* Flip one of the outer community cards\r\n* Round of betting\r\n* Flip another outer card\r\n* Round of betting\r\n* Flip another outer card\r\n* Round of betting\r\n* Flip the final outer card\r\n* Final round of betting\r\n\r\nPlayers must use the center card plus one entire row (vertical or horizontal) from the cross to make their best hand with their hole cards. Strategic element comes from choosing which row to use.",
+    "style_id": 3,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 5,
+    "tags": [
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 79,
+    "name": "Push",
+    "description": "Pure bluffing game similar to [game:Guts] but with sequential dealing. Related to [game:No-peek] in that cards stay hidden.\r\n\r\n* Deal one card face down to each player\r\n* Round of betting, players can fold or stay in\r\n* Deal another card face down to remaining players\r\n* Another round of betting with option to fold\r\n* Continue dealing one card at a time with betting rounds until 7 cards are dealt or only one player remains\r\n* No cards are ever shown during the hand\r\n* Final showdown if multiple players remain\r\n\r\nPlayers must decide to stay or fold without seeing other players' cards. Psychological game focused on reading opponents and betting patterns rather than actual card strength.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 80,
+    "name": "Screwy Louie",
+    "description": "[game:Seven Card Stud] variant with personal wild cards. Similar concept to [game:Baseball] but wilds are determined by each player's lowest card.\r\n\r\n* Deal one card down, one card up to each player\r\n* Round of betting\r\n* Deal one card up\r\n* The lowest card showing is wild for that player (and all matching cards in their hand)\r\n* Round of betting\r\n* Deal one card up\r\n* The lowest card showing is wild for that player\r\n* Round of betting\r\n* Deal one card up\r\n* The lowest card showing is wild for that player\r\n* Round of betting\r\n* Deal final card down\r\n* The lowest card in each player's hand (including down cards) is wild for that player\r\n* Final round of betting\r\n\r\nWild cards change throughout the hand as new cards are revealed. Each player has their own personal wild card rank, making it impossible to know exactly what opponents might have.",
+    "style_id": 2,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 81,
+    "name": "Murder",
+    "description": "Progressive pot-matching game similar to [game:357] but with different wild card progression.\r\n\r\n* Ante, deal 3 cards down to each player\r\n* Threes are wild\r\n* Players declare in or out around the table\r\n* Players who are in play against each other (loser matches pot)\r\n* If multiple players declare in, they choose opponents or play in pairs\r\n* If nobody calls an in player, that player gains a leg\r\n* Players keep their three cards and receive 2 more\r\n* Sixes are now wild (threes are no longer wild)\r\n* Another round of in/out declarations\r\n* Players keep their five cards and receive 2 more\r\n* Nines are now wild (sixes are no longer wild)\r\n* Final round of in/out declarations\r\n\r\nPlay continues until a player gets a second leg and collects the pot. Like 357, pots can grow very large.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 7,
+    "tags": [
+      "wildcard",
+      "pot-matching",
+      "dickish",
+      "declare",
+      "progressive",
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 82,
+    "name": "Pitch",
+    "description": "Trick-taking game where players bid on how many points they can score.\r\n\r\n* Deal 6 cards to each player\r\n* Bidding round (minimum bid of 2, maximum of 4)\r\n* Highest bidder names trump suit and leads first trick\r\n* Players must follow suit if able, otherwise may play any card\r\n* Highest trump wins trick; if no trump, highest card of led suit wins\r\n* Points available each hand:\r\n  - High: player dealt highest trump (1 point)\r\n  - Low: player dealt lowest trump (1 point)\r\n  - Jack: player winning trick with jack of trump (1 point)\r\n  - Game: player with highest point total from captured cards (1 point)\r\n    * 10s = 10 points, Aces = 4, Kings = 3, Queens = 2, Jacks = 1\r\n* If bidder makes their bid, they score their points\r\n* If bidder fails, they go \"set\" and lose that many points (must match pot)\r\n* Other players always score the points they take\r\n\r\nAlso known as Setback or High Low Jack. Partners variation available for 4 players.",
+    "style_id": 7,
+    "min_players": 2,
+    "max_players": 7,
+    "num_cards": 6,
+    "tags": [
+      "pot-matching",
+      "trick-taking",
+      "bidding",
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": [
+      "Setback",
+      "High Low Jack"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Bourre",
+    "description": "Trick-taking pot-matching game popular in Louisiana. Also spelled Booray or Bouré.\r\n\r\n* Ante to the pot\r\n* Deal 5 cards to each player\r\n* Flip one card to determine trump suit\r\n* Players declare in or out (must win at least one trick if in)\r\n* Players who are in may discard and draw up to 5 new cards\r\n* Player to dealer's left leads first trick\r\n* Must follow suit if able; if unable, must play trump if able\r\n* Highest trump wins trick; if no trump, highest card of led suit wins\r\n* Winner of trick leads next\r\n* After all tricks played:\r\n  - Player who won most tricks wins the pot\r\n  - Players who declared in but won no tricks are \"bourréed\" and must match the pot\r\n  - If tie for most tricks, pot carries over to next hand\r\n\r\nPots can grow exponentially when multiple players get bourréed. Some variations require winning 3 of 5 tricks to take the pot.",
+    "style_id": 7,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      "pot-matching",
+      "trick-taking",
+      "dickish",
+      "declare",
+      "draw-cards",
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": [
+      "Booray",
+      "Bouré"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "In-Between",
+    "description": "Pot-matching game similar to [game:Acey Deucey] but with different betting structure. Also known as Yablon or Sheets.\r\n\r\n* Ante to build starting pot\r\n* Deal two cards face up to first player\r\n* Player bets any amount up to the pot size that third card will fall between the two\r\n* Deal third card:\r\n  - If between the two cards: player wins that amount from pot\r\n  - If outside the two cards: player pays that amount into pot\r\n  - If matches either card: player pays double their bet into pot\r\n* If cards are consecutive or equal, player's turn is skipped\r\n* Continue around table until pot is won or all players have gone\r\n* Aces are always high\r\n\r\nThe spread between cards determines odds:\r\n* One-card spread (e.g., 7-9): 11-1 against\r\n* Two-card spread (e.g., 7-10): 5-1 against\r\n* Three-card spread: 3-1 against\r\n\r\nPots can grow very large when players get unlucky or greedy.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 10,
+    "num_cards": 2,
+    "tags": [
+      "pot-matching",
+      ""
+    ],
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z",
+    "aliases": [
+      "Yablon",
+      "Sheets"
+    ]
   }
 ]

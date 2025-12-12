@@ -39,12 +39,13 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
 
-      // Search in name (first cell) and tags (last cell)
+      // Search in name (first cell), tags (last cell), and aliases (data attribute)
       const name = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
       const tags = row.querySelector('td:last-child')?.textContent.toLowerCase() || '';
       const style = row.querySelector('td:nth-child(2)')?.textContent.toLowerCase() || '';
+      const aliases = row.dataset.aliases || '';
 
-      if (name.includes(term) || tags.includes(term) || style.includes(term)) {
+      if (name.includes(term) || tags.includes(term) || style.includes(term) || aliases.includes(term)) {
         row.style.display = '';
         visibleCount++;
       } else {

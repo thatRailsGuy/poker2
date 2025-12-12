@@ -148,8 +148,56 @@ module.exports = function(eleventyConfig) {
     if (!searchTerm) return games;
     const term = searchTerm.toLowerCase();
     return games.filter(game => {
-      return (game.name && game.name.toLowerCase().includes(term)) ||
-             (game.description && game.description.toLowerCase().includes(term));
+      // Check name
+      if (game.name && game.name.toLowerCase().includes(term)) return true;
+
+      // Check description
+      if (game.description && game.description.toLowerCase().includes(term)) return true;
+
+      // Check aliases
+      if (game.aliases && Array.isArray(game.aliases)) {
+        if (game.aliases.some(alias => alias.toLowerCase().includes(term))) return true;
+      }
+
+      return false;
+    });
+  });
+
+  // Filter to get related games by relationship type
+  eleventyConfig.addFilter('getRelatedGames', (gameName, relationships, games, relationshipType) => {
+    if (!relationships || !games) return [];
+
+    const related = relationships
+      .filter(rel => rel.from === gameName && rel.relationship === relationshipType)
+      .map(rel => games.find(g => g.name === rel.to))
+      .filter(g => g); // Remove undefined entries
+
+    return related;
+  });
+
+  // Filter to get games that are variants of this game (or inverse relationships)
+  eleventyConfig.addFilter('getVariants', (gameName, relationships, games, relationshipType = 'variant_of') => {
+    if (!relationships || !games) return [];
+
+    const variants = relationships
+      .filter(rel => rel.to === gameName && rel.relationship === relationshipType)
+      .map(rel => games.find(g => g.name === rel.from))
+      .filter(g => g); // Remove undefined entries
+
+    return variants;
+  });
+
+  // Filter to get unique items from an array by a property
+  eleventyConfig.addFilter('uniqueBy', (array, property) => {
+    if (!array) return [];
+    const seen = new Set();
+    return array.filter(item => {
+      const value = item[property];
+      if (seen.has(value)) {
+        return false;
+      }
+      seen.add(value);
+      return true;
     });
   });
 

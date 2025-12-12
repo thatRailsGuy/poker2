@@ -40,5 +40,12 @@
     "description": "Players receive a number of cards, then receive subsequent cards one at a time until the hand is complete.",
     "created_at": "2013-09-02T09:42:10.805Z",
     "updated_at": "2013-09-02T09:42:10.805Z"
+  },
+  {
+    "id": 7,
+    "name": "Trick-Taking",
+    "description": "Card games where players play cards in turns (tricks) trying to win specific cards or the most tricks. Points are scored based on tricks won or specific cards captured.",
+    "created_at": "2025-12-11T00:00:00.000Z",
+    "updated_at": "2025-12-11T00:00:00.000Z"
   }
 ]
