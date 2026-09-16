@@ -1282,7 +1282,6 @@
     "num_cards": 3,
     "tags": [
       "three-cards",
-      "betting",
       "corb-lund-song"
     ],
     "created_at": "2026-09-16T00:00:00.000Z",
@@ -1301,7 +1300,6 @@
     "num_cards": 3,
     "tags": [
       "three-cards",
-      "betting",
       "corb-lund-song"
     ],
     "created_at": "2026-09-16T00:00:00.000Z",
@@ -1318,7 +1316,7 @@
     "num_cards": 5,
     "tags": [
       "casino",
-      "community-cards",
+      "community-card",
       "corb-lund-song"
     ],
     "created_at": "2026-09-16T00:00:00.000Z",
@@ -1410,8 +1408,7 @@
     "num_cards": 4,
     "tags": [
       "wildcard",
-      "guts-style",
-      "match-pot",
+      "pot-matching",
       "corb-lund-song"
     ],
     "created_at": "2026-09-16T00:00:00.000Z",

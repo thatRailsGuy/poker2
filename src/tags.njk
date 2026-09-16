@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+title: Tags
+permalink: /tags/
+---
+
+<h1>Browse by Tag</h1>
+
+<p class="lead">Every tag used across the catalog. Select one to see the games it describes.</p>
+
+{% set allTags = games | getAllTags %}
+
+<p class="text-muted">{{ allTags.length }} tags across {{ games.length }} games.</p>
+
+<div class="d-flex flex-wrap gap-2 mt-3" role="list">
+  {% for tag in allTags %}
+  {% set count = (games | filterByTag(tag)).length %}
+  <span role="listitem">
+    {{ tag | clickableTag | safe }}
+    <span class="text-muted small">({{ count }})</span>
+  </span>
+  {% endfor %}
+</div>
