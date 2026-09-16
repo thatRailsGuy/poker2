@@ -55,67 +55,6 @@ poker2/
 └── _site/                # Generated static site (after build)
 ```
 
-## 🔄 Converting PostgreSQL Dump to JSON
-
-If you have access to the `latest.dump` file from the original Rails repository, you can convert it to JSON format for use with this Eleventy site.
-
-### Method 1: Using the Conversion Script
-
-1. **Restore the PostgreSQL dump to a local database:**
-
-```bash
-# Create a new database
-createdb poker_temp
-
-# Restore the dump file
-pg_restore --verbose --clean --no-acl --no-owner -d poker_temp latest.dump
-```
-
-2. **Use the provided Node.js conversion script:**
-
-```bash
-node scripts/convert-db-to-json.js
-```
-
-This will create/update the JSON files in `src/_data/`.
-
-### Method 2: Manual Export Using SQL
-
-Connect to your database and run these queries to export data as JSON:
-
-```sql
--- Export games
-COPY (SELECT row_to_json(t) FROM (
-  SELECT id, name, description, style_id, min_players, max_players, num_cards, tags, created_at, updated_at
-  FROM games ORDER BY name
-) t) TO '/path/to/games.json';
-
--- Export styles
-COPY (SELECT row_to_json(t) FROM (
-  SELECT id, name, description, created_at, updated_at
-  FROM styles ORDER BY name
-) t) TO '/path/to/styles.json';
-
--- Export definitions
-COPY (SELECT row_to_json(t) FROM (
-  SELECT id, word, definition, created_at, updated_at
-  FROM definitions ORDER BY word
-) t) TO '/path/to/definitions.json';
-```
-
-### Method 3: Using psql and jq
-
-```bash
-# Export games
-psql poker_temp -t -c "SELECT json_agg(row_to_json(t)) FROM (SELECT * FROM games ORDER BY name) t" | jq '.' > src/_data/games.json
-
-# Export styles
-psql poker_temp -t -c "SELECT json_agg(row_to_json(t)) FROM (SELECT * FROM styles ORDER BY name) t" | jq '.' > src/_data/styles.json
-
-# Export definitions
-psql poker_temp -t -c "SELECT json_agg(row_to_json(t)) FROM (SELECT * FROM definitions ORDER BY word) t" | jq '.' > src/_data/definitions.json
-```
-
 ## 📝 Data Format
 
 ### Games (`src/_data/games.json`)
@@ -131,11 +70,14 @@ psql poker_temp -t -c "SELECT json_agg(row_to_json(t)) FROM (SELECT * FROM defin
     "max_players": 10,
     "num_cards": 7,
     "tags": ["wildcard", "pot-matching"],
+    "aliases": ["Hold'em", "Texas Holdem"],
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   }
 ]
 ```
+
+`aliases` is optional — a list of alternate names the game is also searchable by.
 
 ### Styles (`src/_data/styles.json`)
 
@@ -159,11 +101,14 @@ psql poker_temp -t -c "SELECT json_agg(row_to_json(t)) FROM (SELECT * FROM defin
     "id": 1,
     "word": "Ante",
     "definition": "A small bet all players are required to make...",
+    "category": "Betting Actions",
     "created_at": "2023-01-01T00:00:00.000Z",
     "updated_at": "2023-01-01T00:00:00.000Z"
   }
 ]
 ```
+
+Definitions are grouped by `category` on the definitions page.
 
 ## ✨ Features
 

@@ -10,7 +10,7 @@
     "tags": [
       "lowball",
       "draw-cards",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-02T10:09:06.466Z",
     "updated_at": "2013-09-02T10:09:06.466Z",
@@ -30,7 +30,7 @@
     "tags": [
       "lowball",
       "draw-cards",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-02T10:10:10.121Z",
     "updated_at": "2013-09-02T10:10:10.121Z",
@@ -51,8 +51,7 @@
       "pot-matching",
       "dickish",
       "declare",
-      "progressive",
-      ""
+      "progressive"
     ],
     "aliases": [],
     "created_at": "2013-09-03T06:14:20.630Z",
@@ -67,8 +66,7 @@
     "max_players": 12,
     "num_cards": 4,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T07:58:26.755Z",
     "updated_at": "2013-09-03T07:58:26.755Z",
@@ -82,9 +80,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 1,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T08:01:11.353Z",
     "updated_at": "2013-09-03T08:01:11.353Z",
     "aliases": []
@@ -98,7 +94,7 @@
     "max_players": 8,
     "num_cards": 2,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T05:55:00.667Z",
     "updated_at": "2013-09-03T05:55:00.667Z",
@@ -113,7 +109,7 @@
     "max_players": 10,
     "num_cards": 2,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T07:19:58.529Z",
     "updated_at": "2013-09-03T07:19:58.529Z",
@@ -132,8 +128,7 @@
     "num_cards": 5,
     "tags": [
       "wildcard",
-      "personal-wild",
-      ""
+      "personal-wild"
     ],
     "created_at": "2013-09-02T22:52:31.069Z",
     "updated_at": "2013-09-02T22:52:31.069Z",
@@ -151,8 +146,7 @@
       "dickish",
       "hi-lo",
       "roll-em",
-      "declare",
-      ""
+      "declare"
     ],
     "created_at": "2013-09-03T05:36:56.140Z",
     "updated_at": "2013-09-03T05:37:12.368Z",
@@ -168,8 +162,7 @@
     "num_cards": 4,
     "tags": [
       "lowball",
-      "draw-cards",
-      ""
+      "draw-cards"
     ],
     "created_at": "2013-09-02T10:14:52.433Z",
     "updated_at": "2013-09-02T10:14:52.433Z",
@@ -184,8 +177,7 @@
     "max_players": 6,
     "num_cards": 7,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T04:06:57.439Z",
     "updated_at": "2013-09-03T04:06:57.439Z",
@@ -199,9 +191,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T23:34:49.352Z",
     "updated_at": "2013-09-02T23:34:49.352Z",
     "aliases": []
@@ -216,8 +206,7 @@
     "num_cards": 5,
     "tags": [
       "dickish",
-      "hi-lo",
-      ""
+      "hi-lo"
     ],
     "created_at": "2013-09-03T07:39:34.372Z",
     "updated_at": "2013-09-03T07:39:34.372Z",
@@ -234,8 +223,7 @@
     "tags": [
       "pot-matching",
       "dickish",
-      "declare",
-      ""
+      "declare"
     ],
     "created_at": "2013-09-03T06:00:59.666Z",
     "updated_at": "2013-09-03T06:00:59.666Z",
@@ -249,9 +237,7 @@
     "min_players": 2,
     "max_players": 9,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T05:11:59.580Z",
     "updated_at": "2013-09-03T05:11:59.580Z",
     "aliases": [
@@ -266,9 +252,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T07:56:21.269Z",
     "updated_at": "2013-09-03T07:56:21.269Z",
     "aliases": []
@@ -281,9 +265,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T04:40:18.373Z",
     "updated_at": "2013-09-03T04:40:18.373Z",
     "aliases": []
@@ -296,9 +278,7 @@
     "min_players": 2,
     "max_players": 9,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T05:09:09.446Z",
     "updated_at": "2013-09-03T05:09:09.446Z",
     "aliases": []
@@ -311,9 +291,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T07:50:43.092Z",
     "updated_at": "2013-09-03T07:52:52.591Z",
     "aliases": []
@@ -326,9 +304,7 @@
     "min_players": 2,
     "max_players": 9,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T05:10:26.048Z",
     "updated_at": "2013-09-03T05:10:26.048Z",
     "aliases": []
@@ -342,8 +318,7 @@
     "max_players": 9,
     "num_cards": 5,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T05:16:18.503Z",
     "updated_at": "2013-09-03T05:16:18.503Z",
@@ -358,8 +333,7 @@
     "max_players": 10,
     "num_cards": 5,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-02T23:09:56.070Z",
     "updated_at": "2013-09-02T23:09:56.070Z",
@@ -374,7 +348,7 @@
     "max_players": 8,
     "num_cards": 5,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-02T09:45:02.791Z",
     "updated_at": "2013-09-02T09:45:02.791Z",
@@ -389,8 +363,7 @@
     "max_players": 8,
     "num_cards": 5,
     "tags": [
-      "hi-lo",
-      ""
+      "hi-lo"
     ],
     "created_at": "2013-09-02T09:48:00.709Z",
     "updated_at": "2013-09-02T09:48:00.709Z",
@@ -404,9 +377,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T09:58:17.109Z",
     "updated_at": "2013-09-02T09:58:17.109Z",
     "aliases": []
@@ -419,9 +390,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T09:56:07.633Z",
     "updated_at": "2013-09-02T09:56:07.633Z",
     "aliases": [
@@ -436,9 +405,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T10:00:02.372Z",
     "updated_at": "2013-09-02T10:00:02.372Z",
     "aliases": []
@@ -451,9 +418,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T09:46:33.204Z",
     "updated_at": "2013-09-02T09:46:33.204Z",
     "aliases": [
@@ -469,9 +434,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T09:52:32.655Z",
     "updated_at": "2013-09-02T09:52:32.655Z",
     "aliases": []
@@ -485,7 +448,7 @@
     "max_players": 10,
     "num_cards": 5,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-02T22:31:06.197Z",
     "updated_at": "2013-09-02T22:31:06.197Z",
@@ -499,9 +462,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T22:42:34.022Z",
     "updated_at": "2013-09-02T22:42:34.022Z",
     "aliases": []
@@ -514,9 +475,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T01:31:41.312Z",
     "updated_at": "2013-09-03T01:31:41.312Z",
     "aliases": []
@@ -529,9 +488,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T22:36:13.123Z",
     "updated_at": "2013-09-02T22:36:13.123Z",
     "aliases": []
@@ -544,9 +501,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T22:58:07.268Z",
     "updated_at": "2013-09-02T22:58:07.268Z",
     "aliases": []
@@ -560,7 +515,7 @@
     "max_players": 10,
     "num_cards": 5,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T01:32:25.406Z",
     "updated_at": "2013-09-03T01:32:25.406Z",
@@ -574,9 +529,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T01:22:45.947Z",
     "updated_at": "2013-09-03T01:22:45.947Z",
     "aliases": []
@@ -589,9 +542,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T05:21:39.290Z",
     "updated_at": "2013-09-03T05:27:23.256Z",
     "aliases": []
@@ -607,7 +558,7 @@
     "tags": [
       "pot-matching",
       "dickish",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T05:59:16.655Z",
     "updated_at": "2013-09-03T06:00:02.568Z",
@@ -621,9 +572,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T02:59:06.010Z",
     "updated_at": "2013-09-03T02:59:06.010Z",
     "aliases": []
@@ -638,8 +587,7 @@
     "num_cards": 5,
     "tags": [
       "wildcard",
-      "hi-lo",
-      ""
+      "hi-lo"
     ],
     "created_at": "2013-09-02T10:04:26.127Z",
     "updated_at": "2013-09-02T10:05:26.219Z",
@@ -653,9 +601,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 2,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T10:07:16.565Z",
     "updated_at": "2013-09-02T10:07:16.565Z",
     "aliases": []
@@ -669,8 +615,7 @@
     "max_players": 9,
     "num_cards": 5,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T05:13:28.153Z",
     "updated_at": "2013-09-03T05:13:28.153Z",
@@ -685,8 +630,7 @@
     "max_players": 7,
     "num_cards": 6,
     "tags": [
-      "no-peek",
-      ""
+      "no-peek"
     ],
     "created_at": "2013-09-03T07:23:25.952Z",
     "updated_at": "2013-09-03T07:23:25.952Z",
@@ -702,8 +646,7 @@
     "num_cards": 7,
     "tags": [
       "wildcard",
-      "no-peek",
-      ""
+      "no-peek"
     ],
     "created_at": "2013-09-03T04:05:26.092Z",
     "updated_at": "2013-09-03T04:05:26.092Z",
@@ -717,9 +660,7 @@
     "min_players": 2,
     "max_players": 20,
     "num_cards": 2,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T08:13:54.716Z",
     "updated_at": "2013-09-03T08:13:54.716Z",
     "aliases": []
@@ -733,8 +674,7 @@
     "max_players": 10,
     "num_cards": 5,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T08:08:59.534Z",
     "updated_at": "2013-09-03T08:08:59.534Z",
@@ -749,8 +689,7 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
-      "no-peek",
-      ""
+      "no-peek"
     ],
     "created_at": "2013-09-03T04:04:02.309Z",
     "updated_at": "2013-09-03T04:04:18.373Z",
@@ -766,7 +705,7 @@
     "num_cards": 4,
     "tags": [
       "community-card",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T05:03:38.168Z",
     "updated_at": "2013-09-03T05:03:38.168Z",
@@ -787,7 +726,7 @@
       "community-card",
       "qualifier",
       "lowball",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T05:05:41.777Z",
     "updated_at": "2013-09-03T05:05:41.777Z",
@@ -806,8 +745,7 @@
     "max_players": 50,
     "num_cards": 1,
     "tags": [
-      "dickish",
-      ""
+      "dickish"
     ],
     "created_at": "2013-09-03T06:05:28.317Z",
     "updated_at": "2013-09-03T06:05:32.631Z",
@@ -826,8 +764,7 @@
     "num_cards": 3,
     "tags": [
       "pot-matching",
-      "dickish",
-      ""
+      "dickish"
     ],
     "created_at": "2013-09-03T07:46:03.744Z",
     "updated_at": "2013-09-03T07:47:31.885Z",
@@ -842,7 +779,7 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T00:45:28.237Z",
     "updated_at": "2013-09-03T00:45:28.237Z",
@@ -859,8 +796,7 @@
     "max_players": 6,
     "num_cards": 7,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T02:57:20.395Z",
     "updated_at": "2013-09-03T02:57:20.395Z",
@@ -877,8 +813,7 @@
     "tags": [
       "wildcard",
       "pot-matching",
-      "dickish",
-      ""
+      "dickish"
     ],
     "created_at": "2013-09-03T05:32:01.009Z",
     "updated_at": "2013-09-03T05:34:02.407Z",
@@ -893,7 +828,7 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T00:34:54.256Z",
     "updated_at": "2013-09-03T00:34:54.256Z",
@@ -909,11 +844,13 @@
     "num_cards": 7,
     "tags": [
       "wildcard",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T01:42:44.794Z",
     "updated_at": "2013-09-03T01:42:44.794Z",
-    "aliases": []
+    "aliases": [
+      "Chase the Bitch"
+    ]
   },
   {
     "id": 28,
@@ -923,9 +860,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T01:30:17.342Z",
     "updated_at": "2013-09-03T01:30:17.342Z",
     "aliases": []
@@ -939,7 +874,7 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T01:30:44.588Z",
     "updated_at": "2013-09-03T01:30:44.588Z",
@@ -954,8 +889,7 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T01:02:47.000Z",
     "updated_at": "2013-09-03T01:02:47.000Z",
@@ -969,9 +903,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T01:14:10.998Z",
     "updated_at": "2013-09-03T01:14:10.998Z",
     "aliases": []
@@ -986,7 +918,7 @@
     "num_cards": 1,
     "tags": [
       "dickish",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T06:06:28.893Z",
     "updated_at": "2013-09-03T06:06:50.662Z",
@@ -1000,9 +932,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-02T09:49:27.343Z",
     "updated_at": "2013-09-02T09:49:27.343Z",
     "aliases": []
@@ -1016,8 +946,7 @@
     "max_players": 10,
     "num_cards": 5,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-02T10:03:20.297Z",
     "updated_at": "2013-09-02T10:03:20.297Z",
@@ -1031,9 +960,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T03:01:02.405Z",
     "updated_at": "2013-09-03T03:01:02.405Z",
     "aliases": []
@@ -1048,7 +975,7 @@
     "num_cards": 2,
     "tags": [
       "community-card",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2013-09-03T05:02:22.720Z",
     "updated_at": "2013-09-03T05:02:22.720Z",
@@ -1066,8 +993,7 @@
     "max_players": 7,
     "num_cards": 7,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T02:03:35.091Z",
     "updated_at": "2013-09-03T02:58:01.691Z",
@@ -1081,9 +1007,7 @@
     "min_players": 2,
     "max_players": 6,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T00:00:23.220Z",
     "updated_at": "2013-09-03T00:00:23.220Z",
     "aliases": []
@@ -1097,8 +1021,7 @@
     "max_players": 10,
     "num_cards": 5,
     "tags": [
-      "hi-lo",
-      ""
+      "hi-lo"
     ],
     "created_at": "2013-09-03T07:55:11.015Z",
     "updated_at": "2013-09-03T07:55:11.015Z",
@@ -1113,8 +1036,7 @@
     "max_players": 6,
     "num_cards": 7,
     "tags": [
-      "dickish",
-      ""
+      "dickish"
     ],
     "created_at": "2013-09-03T04:39:11.374Z",
     "updated_at": "2013-09-03T04:39:11.374Z",
@@ -1128,9 +1050,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T04:00:46.529Z",
     "updated_at": "2013-09-03T04:00:46.529Z",
     "aliases": []
@@ -1143,9 +1063,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T05:26:51.367Z",
     "updated_at": "2013-09-03T05:26:51.367Z",
     "aliases": []
@@ -1159,8 +1077,7 @@
     "max_players": 9,
     "num_cards": 5,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2013-09-03T05:12:43.500Z",
     "updated_at": "2013-09-03T05:12:43.500Z",
@@ -1174,9 +1091,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 2,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2013-09-03T05:56:52.155Z",
     "updated_at": "2013-09-03T05:56:52.155Z",
     "aliases": []
@@ -1189,9 +1104,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 3,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": []
@@ -1204,9 +1117,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 3,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": []
@@ -1219,9 +1130,7 @@
     "min_players": 2,
     "max_players": 10,
     "num_cards": 4,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": []
@@ -1234,9 +1143,7 @@
     "min_players": 2,
     "max_players": 8,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": [
@@ -1252,9 +1159,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 5,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": []
@@ -1267,9 +1172,7 @@
     "min_players": 2,
     "max_players": 7,
     "num_cards": 7,
-    "tags": [
-      ""
-    ],
+    "tags": [],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": []
@@ -1283,8 +1186,7 @@
     "max_players": 8,
     "num_cards": 7,
     "tags": [
-      "wildcard",
-      ""
+      "wildcard"
     ],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
@@ -1303,8 +1205,7 @@
       "pot-matching",
       "dickish",
       "declare",
-      "progressive",
-      ""
+      "progressive"
     ],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
@@ -1322,7 +1223,7 @@
       "pot-matching",
       "trick-taking",
       "bidding",
-      ""
+      "corb-lund-song"
     ],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
@@ -1344,8 +1245,7 @@
       "trick-taking",
       "dickish",
       "declare",
-      "draw-cards",
-      ""
+      "draw-cards"
     ],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
@@ -1363,14 +1263,162 @@
     "max_players": 10,
     "num_cards": 2,
     "tags": [
-      "pot-matching",
-      ""
+      "pot-matching"
     ],
     "created_at": "2025-12-11T00:00:00.000Z",
     "updated_at": "2025-12-11T00:00:00.000Z",
     "aliases": [
       "Yablon",
       "Sheets"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Three Card Brag",
+    "description": "A traditional British three-card gambling game and an ancestor of poker.\n\n1. Each player antes\n2. Three cards are dealt face down to each player\n3. Players bet in turn, either playing \"seen\" (having looked at their cards) or \"blind\"\n4. Betting continues until all but one player folds, or a player pays to \"see\" an opponent for a showdown\n\nHand ranking, high to low: prial (three of a kind) > running flush (straight flush) > run (straight) > flush > pair > high card.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 3,
+    "tags": [
+      "three-cards",
+      "betting",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": [
+      "Brag"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Three Card Monte",
+    "description": "Not a poker variant but a betting/sleight-of-hand game, often a street con. The operator shows three cards — typically one queen and two others — shuffles them face down, and the player bets on which one is the queen.\n\nIn honest play it is pure chance; in the classic hustle the operator uses sleight of hand so the mark cannot win. Included here because it appears in the song.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 2,
+    "num_cards": 3,
+    "tags": [
+      "three-cards",
+      "betting",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 87,
+    "name": "Let It Ride",
+    "description": "A casino poker-based game played against a paytable rather than other players.\n\n1. The player makes three equal bets\n2. They receive three cards; two community cards are dealt face down\n3. After seeing their three cards, the player may pull back the first bet or \"let it ride\"\n4. The first community card is revealed; the player may pull back the second bet or let it ride\n5. The final community card is revealed for a five-card showdown\n\nPayouts are based on the final five-card hand, with a pair of tens or better paying out.",
+    "style_id": 6,
+    "min_players": 1,
+    "max_players": 7,
+    "num_cards": 5,
+    "tags": [
+      "casino",
+      "community-cards",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 88,
+    "name": "Strip Poker",
+    "description": "A social variant in which players wager articles of clothing instead of (or in addition to) chips. It can be played over any base poker game — commonly Five Card Draw or a simple stud game.\n\nThe loser of each hand, or the player who cannot meet a bet, removes an item of clothing. Rules for stakes and when a player is \"out\" are agreed in advance.",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 5,
+    "tags": [
+      "novelty",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": []
+  },
+  {
+    "id": 91,
+    "name": "Smear",
+    "description": "A point-trick game in the [game:Pitch] / Setback family, popular in the American Upper Midwest. Players bid for the right to name trump, then win points by taking the high trump, low trump, jack of trump, \"game\" (most card points in tricks), and often the off-jacks (jacks of the same color as trump).\n\nExact scoring targets and the set of counting cards vary by house rules.",
+    "style_id": 7,
+    "min_players": 2,
+    "max_players": 8,
+    "num_cards": 6,
+    "tags": [
+      "pitch-family",
+      "trick-taking",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": [
+      "High Five"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Black Mariah",
+    "description": "A trick-taking game in the Hearts family (best with three players), where the goal is to *avoid* penalty cards.\n\n1. The full 52-card deck is dealt out (for three players, remove the 2♣ and deal 17 cards each)\n2. Each player passes three cards face down to their right\n3. Players follow suit; the highest card of the led suit wins the trick and leads the next\n\nPenalty points: each heart = 1, A♠ = 7, K♠ (\"Black Baz\") = 10, Q♠ (the \"Black Maria\") = 13. Lowest cumulative score after an agreed number of deals wins. A player who takes *all* the penalty cards \"shoots the moon\" and deducts 43 instead.",
+    "style_id": 7,
+    "min_players": 3,
+    "max_players": 6,
+    "num_cards": 17,
+    "tags": [
+      "hearts-family",
+      "trick-taking",
+      "penalty-cards",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": [
+      "Black Maria",
+      "Black Lady"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Dutch Blitz",
+    "description": "A fast, real-time card game (not a poker variant) played with a special deck — each player has their own 40-card deck in one of four colours.\n\nPlayers simultaneously race to empty their \"Blitz\" pile by building shared centre \"Dutch\" piles up by colour from 1 to 10. The first player to clear their Blitz pile calls \"Blitz!\" to end the round.\n\nScoring: +1 per card played to the centre, −2 per card left in your Blitz pile. Play continues until a player reaches the agreed total (commonly 75).",
+    "style_id": 6,
+    "min_players": 2,
+    "max_players": 4,
+    "num_cards": 40,
+    "tags": [
+      "real-time",
+      "novelty",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": [
+      "Dutch Chase"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Fours and Whores",
+    "description": "A guts-style wild-card game. Only pairs, trips, and quads count — straights and flushes do not play. Fours and queens (the \"whores\") are wild.\n\n1. Each player antes and is dealt four cards face down\n2. On a three-second countdown, all players simultaneously declare in or out: keep your cards to stay in, or muck to fold (folding is free)\n3. Everyone still in draws once, exchanging up to four cards\n4. Showdown: the best hand wins the pot; every other player who stayed in must match the pot for the next round\n\nPlay continues over multiple rounds until only one player stays in and beats a dealt \"dummy\" hand.",
+    "style_id": 6,
+    "min_players": 3,
+    "max_players": 8,
+    "num_cards": 4,
+    "tags": [
+      "wildcard",
+      "guts-style",
+      "match-pot",
+      "corb-lund-song"
+    ],
+    "created_at": "2026-09-16T00:00:00.000Z",
+    "updated_at": "2026-09-16T00:00:00.000Z",
+    "aliases": [
+      "4's and Whores",
+      "Whores and Fours"
     ]
   }
 ]
