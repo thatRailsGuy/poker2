@@ -1,9 +1,10 @@
 ---
 layout: layout.njk
 title: Games
+description: Browse every poker and card game variant in the catalog, with players, cards, styles, and tags. Search, sort, and filter by tag.
 pagination:
   data: games
-  size: 100
+  size: 1000
 permalink: /games/
 ---
 
@@ -37,7 +38,7 @@ permalink: /games/
   </thead>
   <tbody>
     {% for game in games | sortBy('name') %}
-    <tr data-aliases="{{ game.aliases | join(', ') | lower }}">
+    <tr data-aliases="{{ game.aliases | join(', ') | lower }}" data-tags="{{ game.tags | join(',') | lower }}">
       <td><a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a></td>
       <td>{{ styles | getStyleById(game.style_id) }}</td>
       <td>{{ game.min_players }}</td>

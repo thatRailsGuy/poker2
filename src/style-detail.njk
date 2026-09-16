@@ -5,6 +5,9 @@ pagination:
   size: 1
   alias: style
 permalink: /styles/{{ style.id }}/
+eleventyComputed:
+  title: "{{ style.name }}"
+  description: "{{ style.name }} poker games: what defines the {{ style.name }} style and the variants that use it."
 ---
 
 <h1>{{ style.name }}</h1>

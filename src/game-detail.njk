@@ -5,6 +5,9 @@ pagination:
   size: 1
   alias: game
 permalink: /games/{{ game.id }}/
+eleventyComputed:
+  title: "{{ game.name }}"
+  description: "How to play {{ game.name }}: rules for {{ game.min_players }} to {{ game.max_players }} players with {{ game.num_cards }} cards."
 ---
 
 <h1 class="mb-4">{{ game.name }}</h1>

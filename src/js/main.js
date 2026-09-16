@@ -69,22 +69,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Handle tag filtering
+  // Handle tag filtering (exact match against each game's tags)
   const tagParam = getUrlParameter('tag');
   if (tagParam && window.location.pathname.includes('/games/')) {
-    // If there's a tag parameter and a search input, use it
-    if (gameSearchInput) {
-      gameSearchInput.value = tagParam;
-      performSearch(tagParam);
-    } else {
-      // Fallback for pages without search input
-      const rows = document.querySelectorAll('table tbody tr');
-      rows.forEach(row => {
-        const tags = row.querySelector('td:last-child');
-        if (tags && !tags.textContent.includes(tagParam)) {
-          row.style.display = 'none';
-        }
-      });
+    performTagFilter(tagParam);
+  }
+
+  function performTagFilter(tag) {
+    const term = tag.toLowerCase().trim();
+    const rows = document.querySelectorAll('table tbody tr');
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+      const tags = (row.dataset.tags || '').split(',').map(t => t.trim());
+      if (tags.includes(term)) {
+        row.style.display = '';
+        visibleCount++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+
+    if (searchResults) {
+      searchResults.textContent = `Showing ${visibleCount} game${visibleCount !== 1 ? 's' : ''} tagged "${tag}"`;
+      searchResults.classList.remove('d-none', 'alert-warning');
+      searchResults.classList.add('alert-info');
     }
   }
 

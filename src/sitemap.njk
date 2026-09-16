@@ -1,0 +1,23 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+{%- set staticPages = ['/', '/games/', '/styles/', '/definitions/', '/tags/', '/rankings/', '/games/random/'] -%}
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for path in staticPages %}
+  <url>
+    <loc>{{ metadata.url }}{{ path | url }}</loc>
+  </url>
+{%- endfor %}
+{%- for game in games %}
+  <url>
+    <loc>{{ metadata.url }}{{ ('/games/' + game.id + '/') | url }}</loc>
+  </url>
+{%- endfor %}
+{%- for style in styles %}
+  <url>
+    <loc>{{ metadata.url }}{{ ('/styles/' + style.id + '/') | url }}</loc>
+  </url>
+{%- endfor %}
+</urlset>
