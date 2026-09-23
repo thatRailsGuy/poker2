@@ -58,7 +58,7 @@ A native WebView wrapper that bundles the built site for offline use. `npm run b
 
 Build in Docker: `docker compose run --rm android` → `android/app/build/outputs/apk/debug/app-debug.apk`. The dev server also runs in Docker (`docker compose up web`, port 8085, because the host's 8080 is taken).
 
-CI: pushing a `v*` tag runs `.github/workflows/android.yml`, which builds the debug APK and attaches it to a GitHub release. The tag sets `versionName` and the run number sets `versionCode` via `-P` Gradle properties.
+CI: pushing a `v*` tag runs `.github/workflows/android.yml`, which builds a release APK signed from the `ANDROID_KEYSTORE_BASE64` / `ANDROID_KEYSTORE_PASSWORD` / `ANDROID_KEY_ALIAS` / `ANDROID_KEY_PASSWORD` repo secrets and attaches it to a GitHub release. Without `ANDROID_KEYSTORE_PATH` set, local release builds are unsigned (use `assembleDebug` locally). The tag sets `versionName` and the run number sets `versionCode` via `-P` Gradle properties.
 
 ### Client-side behavior
 

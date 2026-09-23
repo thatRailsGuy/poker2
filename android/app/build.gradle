@@ -15,9 +15,26 @@ android {
         versionName project.findProperty('versionName') ?: '1.0.0'
     }
 
+    // Release signing comes from env vars (set by CI from repo secrets). Without them, release builds are unsigned.
+    def keystorePath = System.getenv('ANDROID_KEYSTORE_PATH')
+
+    signingConfigs {
+        if (keystorePath) {
+            release {
+                storeFile file(keystorePath)
+                storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('ANDROID_KEY_ALIAS')
+                keyPassword System.getenv('ANDROID_KEY_PASSWORD')
+            }
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
+            if (keystorePath) {
+                signingConfig signingConfigs.release
+            }
         }
     }
 
