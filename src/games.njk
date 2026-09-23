@@ -10,7 +10,7 @@ permalink: /games/
 
 <h1>Poker Games</h1>
 
-<div class="row mb-3">
+<div class="row gy-2 mb-3">
   <div class="col-md-6">
     <label for="game-search" class="visually-hidden">Search games</label>
     <input type="text" id="game-search" class="form-control" placeholder="Search games by name, description, or tags..." aria-describedby="search-results">
@@ -40,10 +40,10 @@ permalink: /games/
     {% for game in games | sortBy('name') %}
     <tr data-aliases="{{ game.aliases | join(', ') | lower }}" data-tags="{{ game.tags | join(',') | lower }}">
       <td><a href="{{ ('/games/' + game.id + '/') | url }}">{{ game.name }}</a></td>
-      <td>{{ styles | getStyleById(game.style_id) }}</td>
-      <td>{{ game.min_players }}</td>
-      <td>{{ game.max_players }}</td>
-      <td>{{ game.num_cards }}</td>
+      <td data-label="Style">{{ styles | getStyleById(game.style_id) }}</td>
+      <td data-label="Min">{{ game.min_players }}</td>
+      <td data-label="Max">{{ game.max_players }}</td>
+      <td data-label="Cards">{{ game.num_cards }}</td>
       <td>
         {% if game.tags %}
           {% for tag in game.tags %}

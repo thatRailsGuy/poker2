@@ -63,12 +63,12 @@ module.exports = function(eleventyConfig) {
         const suitCode = suitMap[suit];
 
         if (rankCode && suitCode) {
-          // Use deckofcardsapi.com for card images
+          // Card images are bundled locally (originally from deckofcardsapi.com) so they work offline
           const cardCode = `${rankCode}${suitCode}`;
           // Create descriptive alt text
           const rankName = rank.charAt(0).toUpperCase() + rank.slice(1);
           const suitName = suit.charAt(0).toUpperCase() + suit.slice(1);
-          return `<img src="https://deckofcardsapi.com/static/img/${cardCode}.png" alt="${rankName} of ${suitName}" class="card-img" role="img">`;
+          return `<img src="${pathPrefix}/images/cards/${cardCode}.png" alt="${rankName} of ${suitName}" class="card-img" role="img">`;
         }
       }
       return cardName; // Fallback to text if parsing fails
@@ -201,7 +201,14 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  // True when building the offline Android app bundle (see the Android section of README.md)
+  eleventyConfig.addGlobalData('isApp', process.env.APP_BUILD === '1');
+
   // Pass through static assets
+  eleventyConfig.addPassthroughCopy({
+    'node_modules/bootstrap/dist/css/bootstrap.min.css': 'vendor/bootstrap/bootstrap.min.css',
+    'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js': 'vendor/bootstrap/bootstrap.bundle.min.js'
+  });
   eleventyConfig.addPassthroughCopy('src/css');
   eleventyConfig.addPassthroughCopy('src/js');
   eleventyConfig.addPassthroughCopy('src/images');

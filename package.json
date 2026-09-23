@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "build:app": "APP_BUILD=1 npx @11ty/eleventy --output=android/app/src/main/assets/www"
   },
   "keywords": [
     "poker",
@@ -19,6 +20,7 @@
   "type": "commonjs",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "bootstrap": "^5.3.8",
     "markdown-it": "^14.0.0",
     "markdown-it-attrs": "^4.1.6"
   }

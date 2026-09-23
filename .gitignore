@@ -26,3 +26,13 @@ npm-debug.log*
 # Database files
 *.dump
 *.sql
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/www/
+android/local.properties
+*.apk
+*.keystore
+*.jks
