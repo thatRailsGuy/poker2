@@ -11,8 +11,8 @@ android {
         minSdk 26
         targetSdk 35
         // CI passes these from the git tag and run number; local builds fall back to the defaults.
-        versionCode (project.findProperty('versionCode') ?: '1').toInteger()
-        versionName project.findProperty('versionName') ?: '1.0.0'
+        versionCode = (project.findProperty('versionCode') ?: '1').toInteger()
+        versionName = project.findProperty('versionName') ?: '1.0.0'
     }
 
     // Release signing comes from env vars (set by CI from repo secrets). Without them, release builds are unsigned.
