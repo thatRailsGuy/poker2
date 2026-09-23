@@ -37,6 +37,28 @@ npm run build
 
 The compiled site will be in the `_site` directory.
 
+### Using Docker instead
+
+No local Node, Java, or Android SDK needed:
+
+```bash
+docker compose up web            # dev server at http://localhost:8085 (override with POKER_WEB_PORT)
+docker compose run --rm android  # build the offline Android app (see below)
+```
+
+## 📱 Android App
+
+`android/` wraps the site in an offline Android app. `npm run build:app` builds the site with `APP_BUILD=1` (which drops the Spotify embed) into `android/app/src/main/assets/www/`, and a WebView serves those files from the APK. The app requests no internet permission; links to other sites open in the phone's browser.
+
+```bash
+docker compose run --rm android
+# → android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+Install it with `adb install android/app/build/outputs/apk/debug/app-debug.apk`, or copy the APK to the phone and open it (allow installs from unknown sources). The first build is slow: the image runs as `linux/amd64` because Google ships no ARM64 Linux build tools.
+
+Pushing a tag that starts with `v` (for example `git tag v1.1.0 && git push origin v1.1.0`) runs `.github/workflows/android.yml`, which builds the APK and attaches it to a GitHub release for that tag. The tag (without the `v`) becomes the app's `versionName`.
+
 ## 📁 Project Structure
 
 ```

@@ -42,7 +42,7 @@ All template logic lives in custom filters here. The important ones:
 
 - `markdown(content, games)` — renders a description AND expands two custom syntaxes inside it:
   - `[game:Game Name]` → link to that game's detail page (looked up in `games` by exact `name`).
-  - `[card:ace of clubs]` → `<img>` from deckofcardsapi.com.
+  - `[card:ace of clubs]` → `<img>` of a bundled card image in `src/images/cards/`.
   Always pass `games` when calling it (`{{ game.description | markdown(games) | safe }}`) or `[game:]` links won't resolve.
 - `getStyleById` / `getStyleObjById`, `getRelatedGames` / `getVariants` (walk `game_relationships.json`), `getAllTags`, `filterByTag`, `search`, `recent` / `newest`, `random`, `clickableTag`, `uniqueBy`.
 
@@ -51,6 +51,14 @@ Passthrough copy is configured for `src/css`, `src/js`, `src/images`.
 ### Path prefix (deployment gotcha)
 
 The site lives at a subpath on GitHub Pages. `ELEVENTY_PATH_PREFIX` (set to `/poker2` in `.github/workflows/`) drives both Eleventy's `pathPrefix` and the manual prefixing inside custom filters. In templates, always build internal URLs with the `url` filter (`{{ '/games/' | url }}`) so they work both locally (`/`) and when deployed. Filters that emit HTML directly (`markdown`, `clickableTag`) prepend `pathPrefix` themselves.
+
+### Android app (`android/`)
+
+A native WebView wrapper that bundles the built site for offline use. `npm run build:app` builds with `APP_BUILD=1` (exposed to templates as the global `isApp`) into `android/app/src/main/assets/www/` (gitignored). `MainActivity` serves it via `WebViewAssetLoader` at `https://appassets.androidplatform.net/` with a custom handler mapping `dir/` → `dir/index.html`. Capacitor was rejected because its local server falls back to the root `index.html` for extensionless paths, which breaks multi-page sites. The manifest has no `INTERNET` permission, so anything the site loads must be local: no CDNs, no hotlinked images. Gate online-only content behind `{% if not isApp %}`.
+
+Build in Docker: `docker compose run --rm android` → `android/app/build/outputs/apk/debug/app-debug.apk`. The dev server also runs in Docker (`docker compose up web`, port 8085, because the host's 8080 is taken).
+
+CI: pushing a `v*` tag runs `.github/workflows/android.yml`, which builds the debug APK and attaches it to a GitHub release. The tag sets `versionName` and the run number sets `versionCode` via `-P` Gradle properties.
 
 ### Client-side behavior
 
@@ -64,4 +72,4 @@ The site lives at a subpath on GitHub Pages. `ELEVENTY_PATH_PREFIX` (set to `/po
 ## Notes
 
 - The JSON files in `src/_data/` are the source of truth. The one-time conversion from the original Rails PostgreSQL dump is complete; there is no import script or database step in this repo.
-- Styling is Bootstrap 5 (via CDN in `layout.njk`) plus `src/css/style.css`.
+- Styling is Bootstrap 5 (the `bootstrap` npm package, passthrough-copied to `/vendor/bootstrap/` so it works offline) plus `src/css/style.css`. Card images for `[card:]` are bundled in `src/images/cards/`.

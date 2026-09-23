@@ -5,7 +5,7 @@ description: A comprehensive, browsable catalog of poker and card game variants,
 permalink: /
 ---
 
-<div class="jumbotron p-5 rounded-3">
+<div class="jumbotron p-4 p-md-5 rounded-3">
   <h1 class="display-4">Welcome to Poker House</h1>
   <p class="lead">A comprehensive repository of poker and card game variants</p>
   <hr class="my-4">
@@ -13,7 +13,7 @@ permalink: /
   <a class="btn btn-primary btn-lg" href="{{ '/games/' | url }}" role="button">Browse All Games</a>
 </div>
 
-<div class="row mt-5">
+<div class="row gy-4 mt-4 mt-md-5">
   <div class="col-md-4">
     <h3>Recently Added Games</h3>
     <ul class="list-group">
@@ -61,12 +61,18 @@ permalink: /
           </svg>
           Featured Song
         </h2>
+        {% if not isApp %}
         <div class="mt-3">
           <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/track/6wOt8U8m3gDYgwtlcuXvAS?utm_source=generator" width="100%" height="152" title="Spotify track player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
         <p class="mt-3 mb-0">
           <a href="https://tapelink.io/share/OMqL5toA" target="_blank" rel="noopener noreferrer">Listen on other platforms</a>
         </p>
+        {% else %}
+        <p class="mt-3 mb-0">
+          <a href="https://tapelink.io/share/OMqL5toA" target="_blank" rel="noopener noreferrer">Listen to &ldquo;All I Wanna Do is Play Cards&rdquo; by Corb Lund</a>
+        </p>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -86,14 +92,14 @@ permalink: /
           This project is open source! We welcome contributions from the poker community. Whether you want to add new game variants,
           improve existing descriptions, fix bugs, or enhance the site's features, your help is appreciated.
         </p>
-        <div class="mt-3">
-          <a href="https://github.com/thatRailsGuy/poker2" class="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer" aria-label="View Poker House repository on GitHub">
+        <div class="mt-3 d-flex flex-wrap gap-2">
+          <a href="https://github.com/thatRailsGuy/poker2" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer" aria-label="View Poker House repository on GitHub">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" style="vertical-align: -2px; margin-right: 4px;" aria-hidden="true">
               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
             </svg>
             View on GitHub
           </a>
-          <a href="https://github.com/thatRailsGuy/poker2/issues" class="btn btn-outline-secondary me-2" target="_blank" rel="noopener noreferrer" aria-label="Report an issue on GitHub">
+          <a href="https://github.com/thatRailsGuy/poker2/issues" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer" aria-label="Report an issue on GitHub">
             Report an Issue
           </a>
           <a href="https://github.com/thatRailsGuy/poker2/fork" class="btn btn-outline-success" target="_blank" rel="noopener noreferrer" aria-label="Fork the Poker House repository on GitHub">
